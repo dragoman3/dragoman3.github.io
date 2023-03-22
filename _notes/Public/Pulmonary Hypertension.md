@@ -1,10 +1,17 @@
 ---
 title : Pulmonary Hypertension
 notetype : feed
-feed: show
 date :  2022-06-13
 ---
 See also [[Right Ventricle RV Failure]]
+
+
+![asted image 20220613195042.png](/assets/img/Pasted%20image%2020220613195042.png)
+
+
+
+### Post-operative
+
 ## Definition 
 - Persistent increase of mean pulmonary artery pressure mPAP of >25mmHg with a pulmonary artery occlusion pressure <15mmHg [^1] 
 - Right ventricle systolic pressure (RVSP) often reported on the Echo does NOT equal mPAP, nor PH. Often they are correlated but not always. 
@@ -54,7 +61,7 @@ Chapter 53 Millers
 	- Sarcoidosis
 	- Schistosomiasis 
 
-![[Pasted image 20220321153827.png]]
+![Pasted image 20220321153827.png](Pasted%20image%2020220321153827.png)
 Miller's Chapter 38, page 1113
 
 ## Provoking Factors
@@ -84,7 +91,7 @@ Involves preventing the provoking factors discussed above
 
 - Box 53.3
 
-    ![[Pulmonary%20Hypertension%20c49a700645cd4100ab06a3f3a8ff08ca 20210718_223656.jpg]]
+    ![Pulmonary%20Hypertension%20c49a700645cd4100ab06a3f3a8ff08ca 20210718_223656.jpg](Pulmonary%2520Hypertension%2520c49a700645cd4100ab06a3f3a8ff08ca%2020210718_223656.jpg)
 
 
 
@@ -123,8 +130,7 @@ Consider regional technique rather than GA.
     - Vasopressin increases SVR without increasing PVR
 
 ##### Vasopressor choice [^4]
-![](/assets/img/Pastedimage20220613195042.png)
-### Post-operative
+
 
 ## References
 [^1]: Miller's 8E Chapter 38, page 1111
