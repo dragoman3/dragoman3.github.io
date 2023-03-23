@@ -4,8 +4,6 @@ notetype: feed | unfeed
 feed: show
 date:   17-07-2022
 ---
-#Drug
-
 ## Mechanism of Action
 Belongs to prostanoid family
 - induce relaxation of vascular smooth muscle

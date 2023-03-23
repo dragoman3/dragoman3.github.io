@@ -4,7 +4,6 @@ notetype: feed
 feed: show
 date:   09-06-2022
 ---
-#Drug
 
 ## Mechanism of Action
 Competitive inhibitory action of PDE III that decrease the hydrolysis of cAMP leading to increase intracellular concentrations of cAMP in the myocardium and vascular smooth muscle

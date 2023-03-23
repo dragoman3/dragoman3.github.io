@@ -4,8 +4,6 @@ notetype : feed
 feed: show
 date :  2022-05-11
 ---
-#Drug #Physiology 
-See also [[Norepinephrine]]
 ## Mechanism
 Potent activator of $\alpha$ and $\beta$ receptors
 

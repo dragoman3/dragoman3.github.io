@@ -9,11 +9,12 @@ tags: pocketcard
 ## Overview [^2]
 1. Mouth opening
 2. Mallampati score
-3. Thyrdomental distance
+3. Thyromental distance
 4. Neck circumference
 5. Neck range of motion
-6. Status of dentition
-7. NPO status
+6. Upper lip bite test
+7. Status of dentition
+8. NPO status
 ## Mallampati Score [^3]
 ![Mallampati](/assets/img/Mallampati.png)
 
@@ -24,6 +25,7 @@ tags: pocketcard
 3. Neck Circumference
 4. Edentureless
 5. Sleep Apnea
+6. Limited mandibular protrusion
 
 ## Predictors of Difficult Direct Laryngoscopy [^1]
 1. Mallampati 3&4
@@ -32,6 +34,7 @@ tags: pocketcard
 4. OSA
 5. Increased neck range of motion
 6. previous neck radiation
+7. Limited mandibular protrusion
 
 [^1]:J. Adam Law, Laura V. Duggan, Mathieu Asselin, Paul Baker, Edward Crosby, Andrew Downey, Orlando R. Hung, George Kovacs, François Lemay, Rudiger Noppens, Matteo Parotto, Roanne Preston, Nick Sowers, Kathryn Sparrow, Timothy P. Turkstra, David T. Wong, Philip M. Jones, undefined undefined, Canadian Airway Focus Group updated consensus-based recommendations for management of the difficult airway: part 2. Planning and implementing safe management of the patient with an anticipated difficult airway, 2021
 [^2]: J.F. Butterworth, D.C. Mackey, J.D. Wasnick, Morgan and mikhail's clinical anesthesiology, 6th edition, 2018
