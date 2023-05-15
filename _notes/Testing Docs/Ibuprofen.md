@@ -1,7 +1,6 @@
 ---
 title: Ibuprofen
-notetype: feed
-feed: show
+feed: hide
 date:   12-05-2023
 category: drug
 tags: drug 
