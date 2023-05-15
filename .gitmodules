@@ -2,5 +2,5 @@
 	path = _notes/Clerkship
 	url = https://github.com/dragoman3/Clerkship
 [submodule "DrugLibrary"]
-	path = DrugLibrary
+	path = _notes/DrugLibrary
 	url = https://github.com/dragoman3/DrugLibrary
