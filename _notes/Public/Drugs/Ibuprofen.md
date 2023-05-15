@@ -1,9 +1,10 @@
 ---
 title: Ibuprofen
-feed: hide
+notetype: feed
+feed: show
 date:   12-05-2023
 category: drug
-tags: drug 
+tags: Drug, clerkship
 ---
 
 

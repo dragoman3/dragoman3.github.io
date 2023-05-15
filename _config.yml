@@ -25,11 +25,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Else keep it Empty (DON'T PUT /; Keep it empty)
 baseurl: ""
 
-# destination: docs
-
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Collective Anesthesia # Change this 
+heading: Jekyll Garden # Change this 
 content: Obsidian ready Jekyll Theme
 copyright:  
   year: © 2022
@@ -67,15 +65,12 @@ plugins:
     
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
-
 collections:
     notes:
       output: true
       permalink: /note/:title
 
-
 markdown: kramdown
-
 
 kramdown:
   input: GFM
@@ -101,15 +96,6 @@ defaults:
     values:
       layout: Post
       content-type: notes
-  - scope:
-      path: ""
-      type: pharmacy
-    values:
-      layout: Post
-      content-type: pharmacy
-
-feed:
-  post_limit: 20
 
 
 # Exclude from processing.
