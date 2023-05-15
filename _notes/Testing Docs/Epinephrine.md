@@ -2,12 +2,10 @@
 title : Epinephrine
 notetype : feed
 feed: show
-category: drug 
 date :  2022-05-11
 ---
-
 ## Mechanism
-Potent activator of $$\alpha$$ and $$\beta$$ receptors
+Potent activator of $\alpha$ and $\beta$ receptors
 
 Mast cell stabilization
 
