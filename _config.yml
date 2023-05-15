@@ -67,15 +67,12 @@ plugins:
     
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
-
 collections:
     notes:
       output: true
       permalink: /note/:title
 
-
 markdown: kramdown
-
 
 kramdown:
   input: GFM
@@ -101,15 +98,6 @@ defaults:
     values:
       layout: Post
       content-type: notes
-  - scope:
-      path: ""
-      type: pharmacy
-    values:
-      layout: Post
-      content-type: pharmacy
-
-feed:
-  post_limit: 20
 
 
 # Exclude from processing.
