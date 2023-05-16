@@ -54,8 +54,6 @@ preferences:
   homepage: 
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
-relative_permalinks: false
-
 encoding: utf-8
 
 # Build settings
@@ -116,7 +114,7 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: [_notes, _notes/Clerkship, _notes/DrugLibrary]
+include: ['_notes', '_notes/Clerkship', _notes/DrugLibrary]
 
 exclude:
   - _notes/000 Inbox
