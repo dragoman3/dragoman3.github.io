@@ -54,6 +54,8 @@ preferences:
   homepage: 
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
+relative_permalinks: false
+
 encoding: utf-8
 
 # Build settings
