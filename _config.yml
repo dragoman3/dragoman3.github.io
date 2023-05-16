@@ -70,7 +70,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /note/:title
+      # permalink: /note/:title
 
 markdown: kramdown
 
