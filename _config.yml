@@ -76,7 +76,7 @@ collections:
       permalink: /note:title
     notes/Clerkship:
       output: true
-      permalink: /note:title
+      permalink: /note/Clerkship:title
 
 
 
