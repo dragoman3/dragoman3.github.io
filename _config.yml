@@ -71,13 +71,10 @@ collections:
     notes:
       output: true
       permalink: /note/:title
-    clerkship:
-      output: true
-      permalink: /note/:title
-    _notes/DrugLibrary:
+    notes/DrugLibrary:
       output: true
       permalink: /note:title
-    _notes/Clerkship:
+    notes/Clerkship:
       output: true
       permalink: /note:title
 
