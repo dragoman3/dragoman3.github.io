@@ -77,6 +77,10 @@ collections:
     _notes/DrugLibrary:
       output: true
       permalink: /note:title
+    _notes/Clerkship:
+      output: true
+      permalink: /note:title
+
 
 
 markdown: kramdown
