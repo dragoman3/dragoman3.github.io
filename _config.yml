@@ -121,6 +121,8 @@ exclude:
   - _notes/000 Inbox
   - _notes/200 Private
   - _notes/300 Templates
+  - _notes/Clerkship/.git
+  - _notes/Clerkship/.gitattributes
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
