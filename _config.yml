@@ -71,9 +71,13 @@ collections:
     notes:
       output: true
       permalink: /note/:title
-    notes/Clerkship:
+    clerkship:
       output: true
       permalink: /note/:title
+    _notes/DrugLibrary:
+      output: true
+      permalink: /note:title
+
 
 markdown: kramdown
 
@@ -93,7 +97,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /post/:title
+      permalink: /note/:title
       content-type: post
   - scope:
       path: ""
