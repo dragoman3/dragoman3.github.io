@@ -4,3 +4,7 @@
 [submodule "_notes/Clerkship"]
 	path = _notes/Clerkship
 	url = https://github.com/dragoman3/Clerkship
+[submodule "_notes/Public/Clerk"]
+	path = _notes/Public/Clerk
+	url = https://github.com/dragoman3/Clerkship.git
+	branch = main
