@@ -4,7 +4,7 @@ notetype: feed
 feed: show
 date:   12-05-2023
 tags: clerkship 
-category: clerk
+category: drug
 ---
 
 ## Mechanism of Action

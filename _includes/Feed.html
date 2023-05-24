@@ -46,7 +46,7 @@
     <div class="related-wrapper">
     {% assign note_items = site.notes | sort: "date" | reverse %}
     {% for note_items in note_items %}
-        {%- if note_items.feed == "show" -%}
+        {%- if note_items.feed == "show" and if note_items.category == 'clerk' -%}
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
                         <h6>{{ note_items.title }}</h6>
