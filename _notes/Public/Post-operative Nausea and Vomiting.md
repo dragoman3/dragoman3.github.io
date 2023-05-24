@@ -28,7 +28,6 @@ date:  17-10-2022
 # Prevention of PONV
 ## 5-HT$$_3$$ Antagonists
 [[Ondansetron]]
-
 ## NK1 Receptor Antagonists
 [[Aprepitant]]
 
