@@ -41,10 +41,10 @@ These are **weight** based and vary by type LMA
 Standard endotracheal tubes are placed below the level of the vocal cords under direct vision.
 On x-ray, the tube tip should sit 2-4 cm above the carina.
 A rule of thumb for the depth of tube is:
-$$Depth = 3\times Tube~Diameter$$
+$Depth = 3\times Tube~Diameter$
 ## Sizing
 Tube diameter is generally selected with the following rule for cuffed tubes:
-$$Tube~Diameter = (age + 4)/4$$
+$Tube~Diameter = (age + 4)/4$
 
 
 ## Specialized Endotracheal Tubes
