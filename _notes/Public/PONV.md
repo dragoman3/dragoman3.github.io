@@ -1,10 +1,10 @@
 ---
 title: PONV
-notetype: feed
 feed: show
+notetype: feed
 category: clerk
+date:  16-05-2023
 tags: clerkship 
-date:  17-10-2022
 ---
 # General Principles
 - Anti-emetic medications are given routinely during anesthesia. 
