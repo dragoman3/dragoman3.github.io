@@ -1,0 +1,190 @@
+<!-------------------------------------------------------------------------------------
+*
+* MIT License
+* Copyright (c) 2020 Raghuveer S, Hiran Venugopalan, Asim K T
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+------------------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Hiran Venugopalan" property="og:site_name" />
+    <meta
+        content="Product and Type Designer | UI UX | Design Mentoring"
+        property="og:description">
+      <meta content="/about/" property="article:author">
+      <meta property="og:image" content="../assets/img/OGImg.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+        rel="stylesheet"><meta content="Install and Setup" property="og:title">
+      <meta content="article" property="og:type">
+      <meta content="/note/how-to" property="og:url"><title>Install and Setup - Jekyll Garden</title>
+      <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+      <link rel="canonical" href="/note/how-to" />
+      <link rel="apple-touch-icon" href="/assets/img/profile.png">
+      <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
+      <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/main.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
+      <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+      <![endif]-->
+      <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+    </head>
+    <body>
+      <main><nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" style="padding-left: 0;"; href="/index.html">
+              <h6> Jekyll Garden</h6>
+            </a>
+            <script src="/assets/js/modeswitcher.js"></script>
+            <script src="/assets/js/Hamburger.js"></script>
+            <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+              <div class="buttons">
+                <a class="button is-text">
+                  <span class="icon is-small">
+                    <img src="/assets/img/sun.svg" id="theme-toggle-img--mobile">
+                  </span>
+                </a>
+              </div>
+            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href="/notes" class="navbar-item">
+                Content Feed
+              </a>
+              <a href="../rapidreferences" class="navbar-item">
+                Rapid Review
+              </a>
+              <a href="../pharmacy" class="navbar-item">
+                Pharmacy
+              </a>
+            </div>
+            <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-text">
+                    <span class="icon is-small">
+                      <img src="/assets/img/sun.svg" id="theme-toggle-img">
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section class="section">
+          <div class="columns is-centered">
+            <!-- Homepage Layout--><!--- Notes Feed Layout--><!--- Notes Layout--><!--- Post Feed Layout--><!--- Post Layout-->
+            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+              <div class="note-page-section">
+                <div><a onclick="window.history.back();">
+                    <h5 class="meta-title">← BACK</h5>
+                  </a>
+                </div>
+                <h1>Install and Setup</h1>
+                <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
+                <div class="content">
+                  <p>Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer <a href="https://jekyllrb.com/docs/installation/">these documents</a>. <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io/blob/main/Dockerfile">Docker file</a> is also available.</p>
+                  <p>Alternatively, you can use <a href="https://github.com/">Github</a> and <a href="https://pages.github.com/">Github Pages</a> as your server. It's very simple and almost low-code. Here is how to do it.</p>
+                  <p><strong>Step 1</strong>: Sign-In to Github, visit the <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io">theme page</a> and click on 'Use this Template'</p>
+                  <p><img src="../assets/img/1-how-to.png" width="100%" /></p>
+                  <p><strong>Step 2</strong>: Name the forked repo as <code class="language-plaintext highlighter-rouge">yourusername.github.io</code>. My Github username is hfactor, hence it's hfactor.github.io</p>
+                  <p><img src="../assets/img/2-how-to.png" width="100%" /></p>
+                  <p><strong>Step 3</strong>: Go to your repo's settings &gt; pages and set the source to your main branch. 
+                    <img src="../assets/img/3-how-to.png" width="100%" /></p>
+                  <p><strong>Step 4 (Optional)</strong>: If you have a custom domain, set <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">CNAME</a>.</p>
+                  <h2 id="configuring-your-jekyll">Configuring Your Jekyll.</h2>
+                  <p>Now you have Jekyll setup ready, go to <code class="language-plaintext highlighter-rouge">_config.yml</code> and set your configurations. Here you can do the following configurations :</p>
+                  <ol>
+                    <li>URL to set your hostname</li>
+                    <li>BASEURL to set your sub path (url/subpath/)</li>
+                    <li>Website Heading, Content, Copyright Year + Message</li>
+                    <li>Private Link - On hover message</li>
+                    <li>What all folders to exclude (Obsidian Template and all)</li>
+                  </ol>
+                  <p>Edit these value via Github, and commit directly to Github, which will refresh the whole setup, and a Jekyll enivorment will be ready. You can visit the page by visiting  <code class="language-plaintext highlighter-rouge">yourusername.github.io</code></p>
+                  <h2 id="syncing-github-with-obsidian">Syncing Github with Obsidian</h2>
+                  <p>Now you have your online publishing setup ready. It's time to build your local knowledge management using Obsidian. Here are the steps :</p>
+                  <p>Step 1: Go to github and clone your repository to your machine. For this, you can use git-commands or install <a href="https://desktop.github.com/">Github for desktop.</a>
+                    <img src="../assets/img/4-how-to.png" width="100%" /></p>
+                  <p>Step 2: Once you have successfully cloned the repository to your machine, Open the Obsidian app in your machine, and set the folder <code class="language-plaintext highlighter-rouge">_notes</code> inside the repository as your vault. 
+                    <img src="../assets/img/5-how-to.png" width="100%" /></p>
+                  <p>This is important, because Jekyll Garden can only fetch and publish notes from <code class="language-plaintext highlighter-rouge">_notes</code> folder.</p>
+                  <h2 id="frontmatter">Frontmatter</h2>
+                  <p>For all notes to work properly, we need to have three frontmatter values.  Please make sure the front matter is written in between three lines. If you check any .md files in this repo, you will see something this.</p>
+                  <div class="language-plaintext highlighter-rouge">
+                    <div class="highlight">
+                      <pre class="highlight"><code>---
+
+title: Credits
+feed: hide
+date: 11-05-2022
+permalink: /credits
+format: list
+
+---
+</code></pre>
+                    </div>
+                  </div>
+                  <ol>
+                    <li><code class="language-plaintext highlighter-rouge">Title</code> is the page title. It <strong>should be same as that of your Obsidian file</strong> title for our Wiki links to work. i.e, if file is <code class="language-plaintext highlighter-rouge">credits.md</code> title has to be <code class="language-plaintext highlighter-rouge">credits</code></li>
+                    <li>If you want to show the note on the feed, you should set <code class="language-plaintext highlighter-rouge">Feed</code> as <code class="language-plaintext highlighter-rouge">show</code>. It's an optional value, and the default value is set to hide. (To avoid publishing by mistake)</li>
+                    <li><code class="language-plaintext highlighter-rouge">date</code> is used to sort note in feed.</li>
+                    <li><code class="language-plaintext highlighter-rouge">permalink</code> is an optional value. Use it to set permanent URLs</li>
+                    <li><code class="language-plaintext highlighter-rouge">format:list</code> will change the layout to a list with border, Refer <span class="tooltip"><a class="stale-link" href="javascript:void(0)">Credits</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                          <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                          </span> </span></span>. This is useful for Curated lists (Check <a href="https://hiran.in/list/reading">my personal library</a> ) or while building MoC.</li>
+                  </ol>
+                  <h2 id="updating-digital-garden">Updating Digital Garden</h2>
+                  <p>Once you have enough notes, got to the Github Desktop app, commit the changes to main, and push the changes to Github. Github will update the pages!
+                    <img src="../assets/img/7-how-to.png" width="100%" /></p>
+                  <p>If you want to know my workflow or Obsidian folder structure, check <a href="">here</a></p>
+                  <h2 id="features">Features</h2>
+                  <ul>
+                    <li>Check <a href="../post/features">Features</a> to know theme features</li>
+                  </ul>
+                  <h2 id="credits">Credits</h2>
+                  <ul>
+                    <li>Check <span class="tooltip"><a class="stale-link" href="javascript:void(0)">Credits</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                          <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                          </span> </span></span></li>
+                  </ul>
+                </div>
+                <!-- Add backlinks to the current page --></div>
+            </div>
+            <!--- Static Page Layout--></div>
+        </section>
+        <!-- <div id="copyright">
+    <p id="copyright-notice"> © 2022 • Contents under CC-BY-NC •
+        Credits</a> </p>
+</div>  --></main>
+    </body>
+  </html>
