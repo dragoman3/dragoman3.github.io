@@ -1,64 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>http://localhost:4000/note/Acetaminophen</loc>
+      <loc>/note/Acetaminophen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Ibuprofen</loc>
+      <loc>/note/Ibuprofen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Hydromorphone</loc>
+      <loc>/note/Hydromorphone</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Ketorolac</loc>
+      <loc>/note/Ketorolac</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Ondansetron</loc>
+      <loc>/note/Ondansetron</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/features</loc>
+      <loc>/note/Aprepitant</loc>
+      <lastmod>2023-05-16T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>/note/Dexamethasone</loc>
+      <lastmod>2023-05-16T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>/note/Haloperidol</loc>
+      <lastmod>2023-05-16T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>/note/features</loc>
       <lastmod>2020-03-01T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/how-to</loc>
+      <loc>/note/how-to</loc>
       <lastmod>2020-03-01T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Acetaminophen.html</loc>
+      <loc>/_notes/DrugLibrary/Acetaminophen.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Hydromorphone.html</loc>
+      <loc>/_notes/DrugLibrary/Aprepitant.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Ibuprofen.html</loc>
+      <loc>/_notes/DrugLibrary/Dexamethasone.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Ketorolac.html</loc>
+      <loc>/_notes/DrugLibrary/Haloperidol.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Ondansetron.html</loc>
+      <loc>/_notes/DrugLibrary/Hydromorphone.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>/_notes/DrugLibrary/Ibuprofen.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/lists</loc>
+      <loc>/_notes/DrugLibrary/Ketorolac.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/notes</loc>
+      <loc>/_notes/DrugLibrary/Ondansetron.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/pharmacy</loc>
+      <loc>/</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/posts</loc>
+      <loc>/lists</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/rapidreferences</loc>
+      <loc>/notes</loc>
+    </url>
+    <url>
+      <loc>/pharmacy</loc>
+    </url>
+    <url>
+      <loc>/posts</loc>
+    </url>
+    <url>
+      <loc>/rapidreferences</loc>
+    </url>
+    <url>
+      <loc>/Commands.html</loc>
+    </url>
+    <url>
+      <loc>/_notes/DrugLibrary/Ketamine.html</loc>
+    </url>
+    <url>
+      <loc>/_notes/DrugLibrary/Propofol.html</loc>
+    </url>
+    <url>
+      <loc>/_notes/DrugLibrary/Index.html</loc>
+      <lastmod>2024-02-19T10:01:44-07:00</lastmod>
     </url>
   </urlset>

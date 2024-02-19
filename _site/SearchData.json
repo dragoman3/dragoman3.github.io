@@ -23,5 +23,20 @@
 "title": "Ondansetron",
 "content": "Mechanism of Action . 5-HT3 antagonist . Indications . [[Post-operative Nausea and Vomiting]] NNT 6 for postoperative nausea and 7 for postoperative vomiting . Dosage . 4 mg IV or 8mg PO disolving (50% bioavailable) 1 . Complications . NNH 36 for headache NNH 31 for elevated LFTs NNH 23 for constipation . References . | [[@ganFourthConsensusGuidelines2020 | Tong J. Gan, Kumar G. Belani, Sergio Bergese, Frances Chung, Pierre Diemunsch, Ashraf S. Habib, Zhaosheng Jin, Anthony L. Kovac, Tricia A. Meyer, Richard D. Urman, Christian C. Apfel, Sabry Ayad, Linda Beagley, Keith Candiotti, Marina Englesakis, Traci L. Hedrick, Peter Kranke, Samuel Lee, Daniel Lipman, Harold S. Minkowitz, John Morton, Beverly K. Philip, Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting, 2020]] | . &amp;#8617; . | .",
 "url": "/note/Ondansetron"
+},"5": {
+"doc":  "Aprepitant",
+"title": "Aprepitant",
+"content": "Mechanism of Action . Pharmacology . Half life is 40 hours . Indications . [[Post-operative Nausea and Vomiting]] . | reduces incidence of POV (not nausea) | More efficacious than [[Ondansetron]]1 | Useful as a prophylactic anti-emetic Dosage . 40, 80, 125 mg PO are all effective . Complications . | . References . | [[Tong J. Gan, Kumar G. Belani, Sergio Bergese, Frances Chung, Pierre Diemunsch, Ashraf S. Habib, Zhaosheng Jin, Anthony L. Kovac, Tricia A. Meyer, Richard D. Urman, Christian C. Apfel, Sabry Ayad, Linda Beagley, Keith Candiotti, Marina Englesakis, Traci L. Hedrick, Peter Kranke, Samuel Lee, Daniel Lipman, Harold S. Minkowitz, John Morton, Beverly K. Philip, Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting, 2020]] &amp;#8617; . | .",
+"url": "/note/Aprepitant"
+},"6": {
+"doc":  "Dexamethasone",
+"title": "Dexamethasone",
+"content": "Mechanism of Action . Indications . [[Post-operative Nausea and Vomiting]] . | dosed at beginning of case Dosage . [[Post-operative Nausea and Vomiting]] . | ranges from 4-10 mg IV | No difference in anti-emetic action of 4 vs 8 Complications . Does not appear to increase post-op infection rates 12 . | . Does not significantly increase risk of bleeding Does not appear to increase cancer risk 2 . References . | [[@corcoranDexamethasoneSurgicalSiteInfection2021 | Tomás B. Corcoran, Paul S. Myles, Andrew B. Forbes, Allen C. Cheng, Leon A. Bach, Edmond O’Loughlin, Kate Leslie, Matthew T.V. Chan, David Story, Timothy G. Short, Catherine Martin, Pauline Coutts, Kwok M. Ho. 2021. Dexamethasone and Surgical-Site Infection . 1731-1741]] | . &amp;#8617; . | | [[@ganFourthConsensusGuidelines2020 | Tong J. Gan, Kumar G. Belani, Sergio Bergese, Frances Chung, Pierre Diemunsch, Ashraf S. Habib, Zhaosheng Jin, Anthony L. Kovac, Tricia A. Meyer, Richard D. Urman, Christian C. Apfel, Sabry Ayad, Linda Beagley, Keith Candiotti, Marina Englesakis, Traci L. Hedrick, Peter Kranke, Samuel Lee, Daniel Lipman, Harold S. Minkowitz, John Morton, Beverly K. Philip, Fourth Consensus Guidelines for the Management of Postoperative Nausea and Vomiting, 2020]] | . &amp;#8617; &amp;#8617;2 . | .",
+"url": "/note/Dexamethasone"
+},"7": {
+"doc":  "Haloperidol",
+"title": "Haloperidol",
+"content": "Mechanism of Action . Indications . [[Post-operative Nausea and Vomiting]] . Dosage . [[Post-operative Nausea and Vomiting]] . | 0.5 - 1 mg IV at the beginning or end of surgery Complications . | QTC prolongation | . References .",
+"url": "/note/Haloperidol"
 }
 }
