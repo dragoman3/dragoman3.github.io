@@ -109,6 +109,10 @@ defaults:
       path: "assets/img"
     values: 
       image: true
+  - scope:
+      path: "_notes/Clerkship/Asset"
+    values: 
+      image: true
 
 
 
