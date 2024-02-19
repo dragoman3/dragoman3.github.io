@@ -2,3 +2,6 @@
 	path = _DrugLibrary
 	url = https://github.com/dragoman3/DrugLibrary.git
 
+[submodule "DrugLibrary"]
+	path = DrugLibrary
+	url = https://github.com/dragoman3/DrugLibrary
