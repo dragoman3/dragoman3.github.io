@@ -105,6 +105,11 @@ defaults:
     values:
       layout: Post
       content-type: notes
+  - scope:
+      path: "assets/img"
+    values: 
+      image: true
+
 
 
 # Exclude from processing.
