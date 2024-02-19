@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+      <loc>/note/Ketamine</loc>
+      <lastmod>2021-11-03T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>/note/Propofol</loc>
+      <lastmod>2021-11-03T00:00:00-06:00</lastmod>
+    </url>
+    <url>
       <loc>/note/Acetaminophen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
@@ -59,10 +67,16 @@
       <loc>/_notes/DrugLibrary/Ibuprofen.html</loc>
     </url>
     <url>
+      <loc>/_notes/DrugLibrary/Ketamine.html</loc>
+    </url>
+    <url>
       <loc>/_notes/DrugLibrary/Ketorolac.html</loc>
     </url>
     <url>
       <loc>/_notes/DrugLibrary/Ondansetron.html</loc>
+    </url>
+    <url>
+      <loc>/_notes/DrugLibrary/Propofol.html</loc>
     </url>
     <url>
       <loc>/</loc>
@@ -84,12 +98,6 @@
     </url>
     <url>
       <loc>/Commands.html</loc>
-    </url>
-    <url>
-      <loc>/_notes/DrugLibrary/Ketamine.html</loc>
-    </url>
-    <url>
-      <loc>/_notes/DrugLibrary/Propofol.html</loc>
     </url>
     <url>
       <loc>/_notes/DrugLibrary/Index.html</loc>
