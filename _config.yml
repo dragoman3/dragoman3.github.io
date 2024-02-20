@@ -74,7 +74,7 @@ collections:
       permalink: /note:title
     notes/Clerkship:
       output: true
-      permalink: /note/Clerkship:title
+      permalink: /note:title
 
 future: true
 
@@ -97,7 +97,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /note/:title
+      # permalink: /note/:title
       content-type: post
   - scope:
       path: ""
@@ -106,7 +106,7 @@ defaults:
       layout: Post
       content-type: notes
   - scope:
-      path: "assets/img"
+      path: "/assets/img"
     values: 
       image: true
 
@@ -120,7 +120,7 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: ['_notes', '_notes/Clerkship', '_notes/DrugLibrary', '_notes/Clerkship/Asset']
+include: ['_notes', '_notes/Clerkship', '_notes/DrugLibrary', '_notes/Clerkship/Asset', 'assets']
 
 exclude:
   - _notes/000 Inbox
