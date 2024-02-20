@@ -8,3 +8,7 @@ bundle exec jekyll serve
 
 <!-- Build to Web -->
 bundle exec jekyll build
+
+Command shift L
+switches to wiki
+
