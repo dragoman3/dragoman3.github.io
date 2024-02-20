@@ -27,8 +27,8 @@ baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Jekyll Garden # Change this 
-content: Obsidian ready Jekyll Theme
+heading: Collective Anesthesia # Change this 
+content: Simple Anesthesia Topics
 copyright:  
   year: © 2022
   msg: Contents under CC-BY-NC 
@@ -109,10 +109,6 @@ defaults:
       path: "assets/img"
     values: 
       image: true
-  - scope:
-      path: "_notes/Clerkship/Asset"
-    values: 
-      image: true
 
 
 
@@ -124,7 +120,7 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: ['_notes', '_notes/Clerkship', '_notes/DrugLibrary']
+include: ['_notes', '_notes/Clerkship', '_notes/DrugLibrary', '_notes/Clerkship/Asset']
 
 exclude:
   - _notes/000 Inbox
