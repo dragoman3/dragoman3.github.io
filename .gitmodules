@@ -4,11 +4,11 @@
 
 [submodule "_notes/DrugLibrary"]
 	path = _notes/DrugLibrary
-	url = https://github.com/dragoman3/DrugLibrary
+	url = https://github.com/dragoman3/DrugLibrary.git
 	
 [submodule "_notes/Clerkship"]
 	path = _notes/Clerkship
-	url = https://github.com/dragoman3/Clerkship
+	url = https://github.com/dragoman3/Clerkship.git
 [submodule "assets/img"]
 	path = assets/img
 	url = https://github.com/dragoman3/img
