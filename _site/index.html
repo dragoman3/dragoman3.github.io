@@ -119,13 +119,20 @@
               <h1 id="goal">Goal</h1>
               <p>The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond.</p>
               <p>Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section.</p>
-              <pre><code class="language-mermaid">graph TD;
-    A--&gt;B;
+              <pre><code class="language-mermaid">graph LR;
+    A--&gt; Justin;
     A--&gt;C;
-    B--&gt;D;
+    Justin --&gt; Emily;
     C--&gt;D;
 </code></pre>
-            </div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+              <script>
+                mermaid.initialize({
+                    startOnLoad:true,
+                    theme: 'default'
+                });
+                window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+              </script></div>
             <!--- Notes Feed Layout--><!--- Notes Layout--><!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
         </section>
         <!-- <div id="copyright">
