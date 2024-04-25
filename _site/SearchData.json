@@ -116,7 +116,7 @@
 },"23": {
 "doc":  "Homepage",
 "title": "Homepage",
-"content": "Welcome . This website is part of a University of Calgary Educational Scholarship study to evaluate learning resources for medical students through anesthesia. Goal . The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond. Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section. graph LR; TheFirstBox--&amp;gt;A[TheSecondBox And other texst will be included here]; .",
+"content": "Welcome . This website is part of a University of Calgary Educational Scholarship study to evaluate learning resources for medical students through anesthesia. Goal . The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond. Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section. classDiagram Animal &amp;lt;|-- Duck Animal &amp;lt;|-- Fish Animal &amp;lt;|-- Zebra Animal : +int age Animal : +String gender Animal: +isMammal() Animal: +mate() Animal : Testing class Duck{ +String beakColor +swim() +quack() } class Fish{ -int sizeInFeet -canEat() } class Zebra{ +bool is_wild +run() } . flowchart LR A[Node 1] --&amp;gt; B[&quot;Node 2:\\nfa:fa-genderless font-awesome\\nfa:fa-caret-right fa arrow\\n#8226; html code\\n#bull; html named\\n• Unicode&quot;]; style B text-align:left; .",
 "url": "/note/Homepage"
 }
 }
