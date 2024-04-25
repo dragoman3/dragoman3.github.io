@@ -35,11 +35,11 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-        rel="stylesheet"><meta content="Collective" property="og:title">
+        rel="stylesheet"><meta content="Homepage" property="og:title">
       <meta content="article" property="og:type">
-      <meta content="http://localhost:4000/" property="og:url"><title>Collective - Collective Anesthesia</title>
+      <meta content="http://localhost:4000/note/Homepage" property="og:url"><title>Homepage - Collective Anesthesia</title>
       <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-      <link rel="canonical" href="http://localhost:4000/" />
+      <link rel="canonical" href="http://localhost:4000/note/Homepage" />
       <link rel="apple-touch-icon" href="/assets/img/profile.png">
       <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
       <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
@@ -102,35 +102,47 @@
         </nav>
         <section class="section">
           <div class="columns is-centered">
-            <!-- Homepage Layout-->
-            <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile"><!--- Show Homepage -->
-              <div class="home-intro">
-                <div class="jumbo">Collective Anesthesia </div>
-                <div class="home-sub-text"> 
-                  <h3>
-                    Here is a collection of <a href="/notes"> pocket cards </a> for use while on anesthesia rotations. 
-                    <br>
-                    Here's an example: <a href="/note/Airway-Assessment-Pocket-Card"> Airway Assessment Pocket Card</a>.
-                  </h3>
+            <!-- Homepage Layout--><!--- Notes Feed Layout--><!--- Notes Layout-->
+            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+              <div class="note-page-section">
+                <div><a onclick="window.history.back();">
+                    <h5 class="meta-title">← BACK</h5>
+                  </a>
                 </div>
- </div>
-              <h1 id="welcome">Welcome</h1>
-              <p>This website is part of a University of Calgary Educational Scholarship study to evaluate learning resources for medical students through anesthesia.</p>
-              <h1 id="goal">Goal</h1>
-              <p>The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond.</p>
-              <p>Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section.</p>
-              <pre><code class="language-mermaid">graph TD;
-    A--&gt;B;
+                <!--- List type Note Layout-->
+                <h1>Homepage</h1>
+                <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
+                <div class="content">
+                  <h1 id="welcome">Welcome</h1>
+                  <p>This website is part of a University of Calgary Educational Scholarship study to evaluate learning resources for medical students through anesthesia.</p>
+                  <h1 id="goal">Goal</h1>
+                  <p>The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond.</p>
+                  <p>Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section.</p>
+                  <pre><code class="language-mermaid">graph LR;
+    A--&gt; (Justin);
     A--&gt;C;
-    B--&gt;D;
+    (Justin) --&gt; Emily;
     C--&gt;D;
 </code></pre>
+                  <pre><code class="language-mermaid">flowchart
+    This is the text in the box
+</code></pre>
+                </div>
+                <!-- Add backlinks to the current page --></div>
             </div>
-            <!--- Notes Feed Layout--><!--- Notes Layout--><!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
+            <!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
         </section>
         <!-- <div id="copyright">
     <p id="copyright-notice"> © 2022 • Contents under CC-BY-NC •
         Credits</a> </p>
 </div>  --></main>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+          startOnLoad:true,
+          theme: 'default'
+      });
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
   </html>

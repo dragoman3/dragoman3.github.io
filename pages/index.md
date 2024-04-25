@@ -6,3 +6,5 @@ layout: Post
 permalink: /
 title: Collective
 ---
+
+This is a test of adding something today.
