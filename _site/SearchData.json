@@ -26,7 +26,7 @@
 },"5": {
 "doc":  "Clerkship Resources",
 "title": "Clerkship Resources",
-"content": "The following topics are taken from the Anesthesia Clerkship Core Documents. The following collection can serve as memory aids for some key topics, but does not include an exhaustive overview. Intra-operative Monitoring . Fluid Management . Physiology . Pharmacology . Airway Mechanical Skills . Ventilation Management . Pain Management . [[Pain Management]] . Pre-operative Evaluation . [[Airway Assessment Pocket Card]] . Post-operative Management .",
+"content": "The following topics are taken from the Anesthesia Clerkship Core Documents. The following collection can serve as memory aids for some key topics, but does not include an exhaustive overview. Intra-operative Monitoring . Fluid Management . Physiology . Pharmacology . Airway Mechanical Skills . Ventilation Management . Pain Management . [[Pain Management]] . Pre-operative Evaluation . [[Airway Assessment Pocket Card]] . Post-operative Management . Testers . graph TB %%{init: {&quot;flowchart&quot;: {&quot;htmlLabels&quot;: false}} }%% A[&quot;Patient Factors - Female Sex - Non-smoker&quot;]; B[Surgical Factors]; N[Nausea Risk]; AN[Anesthetic Technique]; M[Medications]; RM[Rescue Medications]; subgraph pre-op A --&amp;gt;N B--&amp;gt;N end subgraph intra-op N--&amp;gt;AN N--&amp;gt;M end subgraph PACU AN --&amp;gt; RM M--&amp;gt; RM end .",
 "url": "/note/Clerkship-Resources"
 },"6": {
 "doc":  "Airway Assessment",

@@ -20,3 +20,30 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+
+```mermaid
+graph TB
+A[Patient Factors];
+B[Surgical Factors];
+N[Nausea Risk];
+AN[Anesthetic Technique];
+M[Medications];
+RM[Rescue Medications];
+
+
+
+
+subgraph pre-op
+A -->N
+B-->N
+end
+subgraph intra-op
+N-->AN
+N-->M
+end
+subgraph PACU
+AN --> RM
+M--> RM
+end
+```

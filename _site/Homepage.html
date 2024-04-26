@@ -9,3 +9,27 @@
     B--&gt;D;
     C--&gt;D;
 </code></pre>
+<pre><code class="language-mermaid">graph TB
+A[Patient Factors];
+B[Surgical Factors];
+N[Nausea Risk];
+AN[Anesthetic Technique];
+M[Medications];
+RM[Rescue Medications];
+
+
+
+
+subgraph pre-op
+A --&gt;N
+B--&gt;N
+end
+subgraph intra-op
+N--&gt;AN
+N--&gt;M
+end
+subgraph PACU
+AN --&gt; RM
+M--&gt; RM
+end
+</code></pre>

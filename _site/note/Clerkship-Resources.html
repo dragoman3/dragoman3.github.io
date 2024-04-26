@@ -135,6 +135,30 @@
                         <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
                         </span> </span></span></p>
                   <h3 id="post-operative-management">Post-operative Management</h3>
+                  <p>Testers</p>
+                  <pre><code class="language-mermaid">graph TB
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+A["Patient Factors
+- Female Sex
+- Non-smoker"];
+B[Surgical Factors];
+N[Nausea Risk];
+AN[Anesthetic Technique];
+M[Medications];
+RM[Rescue Medications];
+subgraph pre-op
+A --&gt;N
+B--&gt;N
+end
+subgraph intra-op
+N--&gt;AN
+N--&gt;M
+end
+subgraph PACU
+AN --&gt; RM
+M--&gt; RM
+end
+</code></pre>
                 </div>
                 <!-- Add backlinks to the current page --></div>
             </div>
@@ -145,4 +169,11 @@
         Credits</a> </p>
 </div>  --></main>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+          startOnLoad:true,
+      });
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
   </html>
