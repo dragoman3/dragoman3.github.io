@@ -1,5 +1,5 @@
 ---
-title: Clerkship Resources
+title: Test Page
 feed: show
 notetype: feed
 date:  21-03-2023
@@ -22,15 +22,15 @@ The following topics are taken from the Anesthesia Clerkship Core Documents. The
 [[Airway Assessment Pocket Card]]
 ### Post-operative Management
 
-
+jjjj
 Testers
 
 ```mermaid
-graph TB
+flowchart TB
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
-A["Patient Factors
+A["`**Patient** Factors
 - Female Sex
-- Non-smoker"];
+- Non-smoker`"];
 B[Surgical Factors];
 N[Nausea Risk];
 AN[Anesthetic Technique];
