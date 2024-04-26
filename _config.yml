@@ -54,6 +54,7 @@ preferences:
   homepage: 
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
+google_analytics: "G-2KM6JNNSRN"
 
 # mermaid: true
 
