@@ -160,6 +160,39 @@ AN --&gt; RM
 M--&gt; RM
 end
 </code></pre>
+                  <pre><code class="language-mermaid">graph LR
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+A["`**Patient Factors**
+-Female
+-Hx of PONV
+-Non-smoker
+-Post-op Opioids`"];
+B["`**Surgical Factors**
+-Laparoscopy 
+-Cholecystectomy
+-Gynecologic Surgery
+-Strabismus`"];
+N[Nausea Risk];
+AN[Anesthetic Technique];
+M[Medications];
+RM[Rescue Medications];
+
+
+
+
+subgraph Pre-operative
+A --&gt;N
+B--&gt;N
+end
+subgraph intra-op
+N--&gt;AN
+N--&gt;M
+end
+subgraph PACU
+AN --&gt; RM
+M--&gt; RM
+end
+</code></pre>
                 </div>
                 <!-- Add backlinks to the current page --></div>
             </div>

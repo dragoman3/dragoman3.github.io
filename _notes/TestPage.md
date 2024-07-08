@@ -49,3 +49,39 @@ AN --> RM
 M--> RM
 end
 ```
+
+
+```mermaid
+graph LR
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+A["`**Patient Factors**
+-Female
+-Hx of PONV
+-Non-smoker
+-Post-op Opioids`"];
+B["`**Surgical Factors**
+-Laparoscopy 
+-Cholecystectomy
+-Gynecologic Surgery
+-Strabismus`"];
+N[Nausea Risk];
+AN[Anesthetic Technique];
+M[Medications];
+RM[Rescue Medications];
+
+
+
+
+subgraph Pre-operative
+A -->N
+B-->N
+end
+subgraph intra-op
+N-->AN
+N-->M
+end
+subgraph PACU
+AN --> RM
+M--> RM
+end
+```
