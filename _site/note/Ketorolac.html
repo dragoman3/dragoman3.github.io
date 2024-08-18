@@ -30,16 +30,16 @@
     <meta
         content="Product and Type Designer | UI UX | Design Mentoring"
         property="og:description">
-      <meta content="http://localhost:4000/about/" property="article:author">
+      <meta content="/about/" property="article:author">
       <meta property="og:image" content="../assets/img/OGImg.png">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
         rel="stylesheet"><meta content="Ketorolac" property="og:title">
       <meta content="article" property="og:type">
-      <meta content="http://localhost:4000/note/Ketorolac" property="og:url"><title>Ketorolac - Collective Anesthesia</title>
+      <meta content="/note/Ketorolac" property="og:url"><title>Ketorolac - Collective Anesthesia</title>
       <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-      <link rel="canonical" href="http://localhost:4000/note/Ketorolac" />
+      <link rel="canonical" href="/note/Ketorolac" />
       <link rel="apple-touch-icon" href="/assets/img/profile.png">
       <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
       <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
@@ -50,7 +50,7 @@
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
       <![endif]-->
       <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
-      <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml">
     </head>
     <body>
       <main><nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
@@ -113,42 +113,54 @@
                 <h1>Ketorolac</h1>
                 <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
                 <div class="content">
-                  <h2 id="mechanism-of-action">Mechanism of Action</h2>
-                  <p>Non-selective COX inhibitor
-                    see <span class="tooltip"><a href="/note/NSAID/_notes/Clerkship/NSAID.html">NSAID</a><span class="right bottom"><span class="tooltip-title">NSAID</span><br/>
-                        <span class="tooltip-excerpt">Mechanism of Action<br />
-                          Inhibit COX enzyme which prevents prostaglandins from being formed (which are inflammatory mediators) 1<br />
-                          <br />
-                          COX 1<br />
-                          maintain normal renal function, GI tract mucosal protection, throm...</span><i></i></span></span> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
-                  <h2 id="pharmacology">Pharmacology</h2>
-                  <p>Half-life 2.5-8.5 hrs <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
-                    Metabolised by conjugation</p>
-                  <h2 id="indications">Indications</h2>
-                  <p><span class="tooltip"><a class="stale-link" href="javascript:void(0)">Pain Management#Step 1 - Non-opioids +/- Adjuvants</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
-                        <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
-                        </span> </span></span></p>
+                  <h2 id="what-is-ketorolac">What is Ketorolac?</h2>
+                  <ul>
+                    <li>Nonsteroidal anti-inflammatory drug used primarily for short term, acute pain management.</li>
+                  </ul>
+                  <h2 id="mechanism-of-action-">Mechanism of Action <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
+                  <ul>
+                    <li>COX-1 and COX-2 inhibitor
+                      <ul>
+                        <li>COX-1: involved in platelet aggregation, gastric mucosa, vascular endothelium</li>
+                        <li>COX-2: converts arachadonic acid -&gt; prostaglandins -&gt; inflammation. Inhibition provides analgesic and anti-inflmmatory properties.</li>
+                      </ul>
+                    </li>
+                    <li>Rapidly absorbed after oral administration. Binds to plasma proteins and is metabolized in the liver. Metabolites excreted mainly by the kidney.</li>
+                    <li>Half-life: 5-6 hours.</li>
+                  </ul>
                   <h2 id="dosage">Dosage</h2>
-                  <p>15-30 mg IV/IM q6-24 hrs</p>
-                  <h2 id="complications">Complications</h2>
-                  <p>!<span class="tooltip"><a class="stale-link" href="javascript:void(0)">NSAID#NSAID Complications</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
-                        <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
-                        </span> </span></span></p>
+                  <ul>
+                    <li>15 - 30 mg PO/IV every 6 hours. Ceiling effect exists above 15 mg.</li>
+                    <li>Pediatrics 0.5 mg/kg PO/IV every 6 hours</li>
+                  </ul>
+                  <h2 id="indications">Indications</h2>
+                  <ul>
+                    <li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Analgesia (see <span class="tooltip"><a class="stale-link" href="javascript:void(0)">../Clerkship/Pain Management</td>
+                                <td>Pain Management</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                                  <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                                  </span> </span></span>)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </li>
+                  </ul>
+                  <h2 id="contraindications-3">Contraindications [^3]</h2>
+                  <ul>
+                    <li>Renal insufficiency</li>
+                    <li>Pregnancy (risks premature ductus arteriosus)</li>
+                    <li>Bleeding disorders</li>
+                    <li>Surgical concerns of bone, wound or anastomosis</li>
+                    <li>peptic ulcer</li>
+                  </ul>
                   <h2 id="references">References</h2>
                   <div class="footnotes" role="doc-endnotes">
                     <ol>
                       <li id="fn:1" role="doc-endnote">
-                        <table>
-                          <tbody>
-                            <tr>
-                              <td><span class="tooltip"><a class="stale-link" href="javascript:void(0)">@shaferStoeltingPharmacologyPhysiology2015</td>
-                                  <td>Steven L. Shafer, James P. Rathmell, Pamela Flood, Stoelting's pharmacology and physiology in anesthetic practice, 2015</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
-                                    <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
-                                    </span> </span></span></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                        <p><a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+                        <p>Mahmoodi, N., Patel, P., Kim, P. (2024, February 28). <em>Ketorolac</em>. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK545172/ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
                       </li>
                     </ol>
                   </div>
