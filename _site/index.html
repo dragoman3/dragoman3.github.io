@@ -77,14 +77,17 @@
           </div>
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-              <a href="/notes" class="navbar-item">
-                Content Feed
-              </a>
               <a href="../rapidreferences" class="navbar-item">
                 Rapid Review
               </a>
               <a href="../pharmacy" class="navbar-item">
                 Pharmacy
+              </a>
+              <a href="/notes" class="navbar-item">
+                Content Feed
+              </a>
+              <a href="/acknowledgements" class="navbar-item">
+                Acknowledgements
               </a>
             </div>
             <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
@@ -104,34 +107,24 @@
           <div class="columns is-centered">
             <!-- Homepage Layout-->
             <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile"><!--- Show Homepage -->
-              <div class="home-intro">
-                <div class="jumbo">Collective Anesthesia </div>
-                <div class="home-sub-text"> 
-                  <h3>
-                    Here is a collection of <a href="/notes"> pocket cards </a> for use while on anesthesia rotations. 
-                    <br>
-                    Here's an example: <a href="/note/Airway-Assessment-Pocket-Card"> Airway Assessment Pocket Card</a>.
-                  </h3>
-                </div>
- </div>
+              <!-- <!-- <div class="home-intro">
+    <div class="jumbo">Collective Anesthesia </div>
+<!--     <div class="home-sub-text"> <h3>
+        Here is a collection of <a href="/notes"> pocket cards </a> for use while on anesthesia rotations. 
+            <br>
+        Here's an example: <a href="/note/Airway-Assessment-Pocket-Card"> Airway Assessment Pocket Card</a>.
+        </h3>  -->
+              <!-- </div> </div> -->
               <h1 id="welcome">Welcome</h1>
               <p>This website is part of a University of Calgary Educational Scholarship study to evaluate learning resources for medical students through anesthesia.</p>
               <h1 id="goal">Goal</h1>
               <p>The goal of this project is to provide condense, useful educational resources that can be used during anesthesia rotations and beyond.</p>
               <p>Several formats of resources exist, including clinical practice flowcharts, topic pocket cards, and a pharmacy section.</p>
-              <pre><code class="language-mermaid">graph LR;
-    A--&gt; Justin;
-    A--&gt;C;
-    Justin --&gt; Emily;
-    C--&gt;D;
-</code></pre>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
-              <script>
-                mermaid.initialize({
-                    startOnLoad:true,
-                });
-                window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-              </script></div>
+              <h1 id="pharmacy">Pharmacy</h1>
+              <p>The <a href="/pharmacy"> Pharmacy Section </a> covers many drugs available in the anesthetic cart.</p>
+              <h1 id="rapid-references">Rapid References</h1>
+              <p>The <a href="/rapidreferences"> Rapid References </a> section covers several introductory topics in anesthesia.</p>
+            </div>
             <!--- Notes Feed Layout--><!--- Notes Layout--><!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
         </section>
         <!-- <div id="copyright">

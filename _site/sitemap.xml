@@ -147,13 +147,13 @@
       <loc>/_notes/DrugLibrary/Haloperidol.html</loc>
     </url>
     <url>
-      <loc>/Homepage.html</loc>
-    </url>
-    <url>
       <loc>/_notes/DrugLibrary/Hydromorphone.html</loc>
     </url>
     <url>
       <loc>/_notes/DrugLibrary/Ibuprofen.html</loc>
+    </url>
+    <url>
+      <loc>/Intro.html</loc>
     </url>
     <url>
       <loc>/_notes/DrugLibrary/Ketamine%201.html</loc>
@@ -199,6 +199,9 @@
     </url>
     <url>
       <loc>/_notes/TestPage.html</loc>
+    </url>
+    <url>
+      <loc>/acknowledgements</loc>
     </url>
     <url>
       <loc>/</loc>
