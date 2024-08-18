@@ -1,35 +1,121 @@
 <h1 id="general-principles">General Principles</h1>
 <ul>
+  <li>Many patients undergoing anesthesia will experience post-operative nausea and vomiting</li>
   <li>Anti-emetic medications are given routinely during anesthesia.</li>
   <li>Combining agents of different classes reduces side effects and improves anti-emetic action</li>
 </ul>
+<h1 id="clinical-pathway">Clinical Pathway</h1>
+<pre><code class="language-mermaid">graph TB
+A["`**Patient Factors**
+-Female
+-Hx of PONV
+-Non-smoker
+-Post-op Opioids`"];
+B["`**Surgical Factors**
+-Laparoscopy 
+-Cholecystectomy
+-Gynecologic Surgery
+-Strabismus`"];
+N[Nausea Risk];
+AN["`**Anesthetic Technique**
+-TIVA
+-Regional`"];
+M["`**Medications** 
+-5-HT3 Antagonists
+-Steroids
+-Anti-psychotics
+-NK inhibitors
+-Dopaminergic Agents`"];
+RM["`**Rescue Medications**`"];
+
+
+
+
+subgraph Pre-operative
+A --&gt;N
+B--&gt;N
+end
+subgraph Intra-operative
+N--&gt;AN
+N--&gt;M
+end
+subgraph Recovery
+AN --&gt; RM
+M--&gt; RM
+end
+</code></pre>
+<pre><code class="language-mermaid">graph LR
+A["`**Apfel Score**`"];
+B1["`**1-2 Risk Factors**`"];
+B2["`**3-4 Risk Factors**`"];
+C1["`**2 Antiemetics**`"];
+C2["`**3-4 Antiemetics**`"];
+
+A --&gt; B1
+A --&gt; B2
+B1 --&gt; C1
+B2 --&gt; C2
+
+</code></pre>
 <h1 id="risk-factors-for-nausea">Risk Factors for Nausea</h1>
-<h2 id="patient-risk-factors-">Patient Risk Factors <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
+<h2 id="patient-risk-factors--apfel-score-">Patient Risk Factors – Apfel Score <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
 <ul>
   <li>Female</li>
   <li>Non-smoker</li>
   <li>history of PONV/motion sickness</li>
   <li>post-operative opioids</li>
 </ul>
+<table>
+  <thead>
+    <tr>
+      <th>Apfel Score Points</th>
+      <th>Risk of PONV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>40%</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>60%</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>80%</td>
+    </tr>
+  </tbody>
+</table>
 <h2 id="surgical-risk-factors">Surgical Risk Factors</h2>
 <ul>
   <li>Cholecystectomy</li>
   <li>laparoscopic</li>
-  <li>gynecologic
-    <h2 id="anesthetic-risk-factors">Anesthetic Risk Factors</h2>
-  </li>
+  <li>gynecologic</li>
+</ul>
+<h2 id="anesthetic-risk-factors">Anesthetic Risk Factors</h2>
+<ul>
   <li>Duration of anesthesia</li>
   <li>use of volatile anesthetics / nitrous oxide</li>
 </ul>
-<h1 id="prevention-of-ponv">Prevention of PONV</h1>
+<h1 id="medications-to-prevent-ponv">Medications to Prevent PONV</h1>
 <h2 id="5-ht3-antagonists">5-HT<sub>3</sub> Antagonists</h2>
 <p>[[Ondansetron]]</p>
+<h2 id="antidopaminergics">Antidopaminergics</h2>
+<p>[[Haloperidol]]
+  [[Metoclopromide]]</p>
 <h2 id="nk1-receptor-antagonists">NK1 Receptor Antagonists</h2>
 <p>[[Aprepitant]]</p>
 <h2 id="corticosteroids">Corticosteroids</h2>
 <p>[[Dexamethasone]]</p>
-<h2 id="antidopaminergics">Antidopaminergics</h2>
-<p>[[Haloperidol]]</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
