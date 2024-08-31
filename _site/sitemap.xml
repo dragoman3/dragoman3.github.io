@@ -41,6 +41,10 @@
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
+      <loc>http://localhost:4000/note/Dexamethasone</loc>
+      <lastmod>2023-05-15T00:00:00-06:00</lastmod>
+    </url>
+    <url>
       <loc>http://localhost:4000/note/Ondansetron</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
@@ -50,10 +54,6 @@
     </url>
     <url>
       <loc>http://localhost:4000/note/Aprepitant</loc>
-      <lastmod>2023-05-16T00:00:00-06:00</lastmod>
-    </url>
-    <url>
-      <loc>http://localhost:4000/note/Dexamethasone</loc>
       <lastmod>2023-05-16T00:00:00-06:00</lastmod>
     </url>
     <url>
