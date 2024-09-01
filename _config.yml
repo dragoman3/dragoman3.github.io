@@ -56,8 +56,7 @@ preferences:
 
 google_analytics: "G-2KM6JNNSRN"
 
-# mermaid: true
-
+mermaid: true
   # src: '/js/mermaid.js'
   # src_config: '/js/mermaid_config.js'
 
