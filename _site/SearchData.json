@@ -153,5 +153,10 @@
 "title": "TIVA",
 "content": "",
 "url": "/note/TIVA"
+},"31": {
+"doc":  "Extubation Criteria",
+"title": "Extubation Criteria",
+"content": "Airway . Breathing . Circulation . Disability . gitGraph branch Initial commit id: &quot;Initial&quot; branch airway checkout airway commit id: &quot;Obstruction&quot; commit id: &quot;Secretions&quot; commit id: &quot;Tongue Position&quot; checkout Initial branch breathing checkout breathing commit id: &quot;Oxygen Saturation&quot; commit id: &quot;Respiratory Rate&quot; commit id: &quot;Auscultation&quot; checkout Initial branch circulation checkout circulation commit id: &quot;Heart Rate&quot; commit id: &quot;Blood Pressure&quot; commit id: &quot;Capillary Refill&quot; checkout Initial branch disability checkout disability commit id: &quot;Glasgow Coma Scale&quot; commit id: &quot;Pupil Response&quot; commit id: &quot;Motor Function&quot; .",
+"url": "/note/Extubation-Criteria"
 }
 }

@@ -1,0 +1,35 @@
+<h2 id="airway">Airway</h2>
+<h2 id="breathing">Breathing</h2>
+<h2 id="circulation">Circulation</h2>
+<h2 id="disability">Disability</h2>
+<pre><code class="language-mermaid">gitGraph
+	branch Initial
+   commit id: "Initial"
+   branch airway
+   checkout airway
+   commit id: "Obstruction"
+   commit id: "Secretions"
+   commit id: "Tongue Position"
+   
+   checkout Initial
+   branch breathing
+   checkout breathing
+   commit id: "Oxygen Saturation"
+   commit id: "Respiratory Rate"
+   commit id: "Auscultation"
+   
+   checkout Initial
+   branch circulation
+   checkout circulation
+   commit id: "Heart Rate"
+   commit id: "Blood Pressure"
+   commit id: "Capillary Refill"
+   
+   checkout Initial
+   branch disability
+   checkout disability
+   commit id: "Glasgow Coma Scale"
+   commit id: "Pupil Response"
+   commit id: "Motor Function"
+
+</code></pre>
