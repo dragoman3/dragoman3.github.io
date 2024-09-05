@@ -33,3 +33,31 @@
    commit id: "Motor Function"
 
 </code></pre>
+<pre><code class="language-mermaid">classDiagram
+   class Airway {
+     +Obstruction
+     +Secretions
+     +Tongue Position
+   }
+   
+   class Breathing {
+     +Oxygen Saturation
+     +Respiratory Rate
+     +Auscultation
+   }
+   
+   class Circulation {
+     +Heart Rate
+     +Blood Pressure
+     +Capillary Refill
+   }
+   
+   class Disability {
+     +Glasgow Coma Scale
+     +Pupil Response
+     +Motor Function
+   }
+Airway --&gt; Breathing 
+Breathing --&gt; Circulation
+Circulation --&gt; Disability
+</code></pre>
