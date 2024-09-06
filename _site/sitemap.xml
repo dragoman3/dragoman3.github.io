@@ -1,270 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>/note/Post-operative-Nausea-and-Vomiting</loc>
+      <loc>http://localhost:4000/note/Post-operative-Nausea-and-Vomiting</loc>
       <lastmod>2022-10-17T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Midazolam</loc>
+      <loc>http://localhost:4000/note/Midazolam</loc>
       <lastmod>2023-01-10T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Nitrous-Oxide</loc>
+      <loc>http://localhost:4000/note/Nitrous-Oxide</loc>
       <lastmod>2023-01-10T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Airway-Assessment-Pocket-Card</loc>
+      <loc>http://localhost:4000/note/Airway-Assessment-Pocket-Card</loc>
       <lastmod>2023-03-21T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Clerkship-Resources</loc>
+      <loc>http://localhost:4000/note/Clerkship-Resources</loc>
       <lastmod>2023-03-21T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/TestPage</loc>
+      <loc>http://localhost:4000/note/TestPage</loc>
       <lastmod>2023-03-21T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/NSAID</loc>
+      <loc>http://localhost:4000/note/NSAID</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Pain-Management</loc>
+      <loc>http://localhost:4000/note/Pain-Management</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Acetaminophen</loc>
+      <loc>http://localhost:4000/note/Acetaminophen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Ibuprofen</loc>
+      <loc>http://localhost:4000/note/Ibuprofen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Dexamethasone</loc>
+      <loc>http://localhost:4000/note/Dexamethasone</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Ondansetron</loc>
+      <loc>http://localhost:4000/note/Ondansetron</loc>
       <lastmod>2023-05-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Airway-Devices</loc>
+      <loc>http://localhost:4000/note/Airway-Devices</loc>
       <lastmod>2023-05-16T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Aprepitant</loc>
+      <loc>http://localhost:4000/note/Aprepitant</loc>
       <lastmod>2023-05-16T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Haloperidol</loc>
+      <loc>http://localhost:4000/note/Haloperidol</loc>
       <lastmod>2023-05-16T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Ketamine</loc>
+      <loc>http://localhost:4000/note/Ketamine</loc>
       <lastmod>2023-05-18T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Neostigmine</loc>
+      <loc>http://localhost:4000/note/Neostigmine</loc>
       <lastmod>2023-05-18T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Propofol</loc>
+      <loc>http://localhost:4000/note/Propofol</loc>
       <lastmod>2023-05-18T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Fasting-Requirements</loc>
+      <loc>http://localhost:4000/note/Fasting-Requirements</loc>
       <lastmod>2023-12-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Rapid-Sequence-Induction</loc>
+      <loc>http://localhost:4000/note/Rapid-Sequence-Induction</loc>
       <lastmod>2023-12-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Sevoflurane</loc>
+      <loc>http://localhost:4000/note/Sevoflurane</loc>
       <lastmod>2024-01-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Desflurane</loc>
+      <loc>http://localhost:4000/note/Desflurane</loc>
       <lastmod>2024-01-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/note/Remifentanil</loc>
+      <loc>http://localhost:4000/note/Remifentanil</loc>
       <lastmod>2024-06-15T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Ketorolac</loc>
+      <loc>http://localhost:4000/note/Ketorolac</loc>
       <lastmod>2024-06-18T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Hydromorphone</loc>
+      <loc>http://localhost:4000/note/Hydromorphone</loc>
       <lastmod>2024-07-08T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Morphine</loc>
+      <loc>http://localhost:4000/note/Morphine</loc>
       <lastmod>2024-07-08T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Naloxone</loc>
+      <loc>http://localhost:4000/note/Naloxone</loc>
       <lastmod>2024-07-08T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Rocuronium</loc>
+      <loc>http://localhost:4000/note/Rocuronium</loc>
       <lastmod>2024-07-08T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Succinylcholine</loc>
+      <loc>http://localhost:4000/note/Succinylcholine</loc>
       <lastmod>2024-07-08T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Fentanyl</loc>
+      <loc>http://localhost:4000/note/Fentanyl</loc>
       <lastmod>2024-07-16T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/TIVA</loc>
+      <loc>http://localhost:4000/note/TIVA</loc>
       <lastmod>2024-08-22T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/note/Extubation-Criteria</loc>
+      <loc>http://localhost:4000/note/Extubation-Criteria</loc>
       <lastmod>2024-09-05T00:00:00-06:00</lastmod>
     </url>
     <url>
-      <loc>/clerk/2020/03/01/features.html</loc>
+      <loc>http://localhost:4000/clerk/2020/03/01/features.html</loc>
       <lastmod>2020-03-01T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/clerk/2020/03/01/how-to.html</loc>
+      <loc>http://localhost:4000/clerk/2020/03/01/how-to.html</loc>
       <lastmod>2020-03-01T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Acetaminophen.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Acetaminophen.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Airway%20Assessment%20Pocket%20Card.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Airway%20Assessment%20Pocket%20Card.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Airway%20Devices.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Airway%20Devices.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Aprepitant.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Aprepitant.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Clerkship%20Resources.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Clerkship%20Resources.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Desflurane.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Desflurane.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Dexamethasone.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Dexamethasone.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Extubation%20Criteria.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Extubation%20Criteria.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Fasting%20Requirements.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Fasting%20Requirements.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Fentanyl.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Fentanyl.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Haloperidol.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Haloperidol.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Hydromorphone.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Hydromorphone.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Ibuprofen.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Ibuprofen.html</loc>
     </url>
     <url>
-      <loc>/Intro.html</loc>
+      <loc>http://localhost:4000/Intro.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Ketamine.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Ketamine.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Ketorolac.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Ketorolac.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Midazolam.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Midazolam.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Morphine.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Morphine.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/NSAID.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/NSAID.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Naloxone.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Naloxone.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Neostigmine.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Neostigmine.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Nitrous%20Oxide.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Nitrous%20Oxide.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Ondansetron.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Ondansetron.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Pain%20Management.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Pain%20Management.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Post-operative%20Nausea%20and%20Vomiting.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Post-operative%20Nausea%20and%20Vomiting.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Propofol.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Propofol.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Rapid%20Sequence%20Induction.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Rapid%20Sequence%20Induction.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Remifentanil.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Remifentanil.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Rocuronium.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Rocuronium.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Sevoflurane.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/Sevoflurane.html</loc>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Succinylcholine.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Succinylcholine.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/TIVA.html</loc>
+      <loc>http://localhost:4000/_notes/Clerkship/TIVA.html</loc>
     </url>
     <url>
-      <loc>/_notes/TestPage.html</loc>
+      <loc>http://localhost:4000/_notes/TestPage.html</loc>
     </url>
     <url>
-      <loc>/acknowledgements</loc>
+      <loc>http://localhost:4000/acknowledgements</loc>
     </url>
     <url>
-      <loc>/</loc>
+      <loc>http://localhost:4000/</loc>
     </url>
     <url>
-      <loc>/lists</loc>
+      <loc>http://localhost:4000/lists</loc>
     </url>
     <url>
-      <loc>/notes</loc>
+      <loc>http://localhost:4000/notes</loc>
     </url>
     <url>
-      <loc>/pharmacy</loc>
+      <loc>http://localhost:4000/pharmacy</loc>
     </url>
     <url>
-      <loc>/posts</loc>
+      <loc>http://localhost:4000/posts</loc>
     </url>
     <url>
-      <loc>/rapidreferences</loc>
+      <loc>http://localhost:4000/rapidreferences</loc>
     </url>
     <url>
-      <loc>/Commands.html</loc>
+      <loc>http://localhost:4000/Commands.html</loc>
     </url>
     <url>
-      <loc>/_notes/Clerkship/Index.html</loc>
-      <lastmod>2024-09-05T22:01:50-06:00</lastmod>
+      <loc>http://localhost:4000/_notes/Clerkship/Index.html</loc>
+      <lastmod>2024-09-05T22:13:19-06:00</lastmod>
     </url>
     <url>
-      <loc>/_notes/DrugLibrary/Index.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Index.html</loc>
       <lastmod>2024-09-05T15:44:17-06:00</lastmod>
     </url>
   </urlset>
