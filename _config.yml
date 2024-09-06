@@ -86,6 +86,10 @@ collections:
 
 future: true
 
+assets:
+  self_host:
+    enabled: true
+    env: development
 
 markdown: kramdown
 
