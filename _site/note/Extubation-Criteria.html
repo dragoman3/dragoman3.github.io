@@ -119,68 +119,39 @@
                 <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
                 <div class="content">
                   <h2 id="airway">Airway</h2>
+                  <p><em>Ensure the patient will be able to protect their own airway and that airway recapture is possible</em></p>
+                  <ul>
+                    <li>protective reflexes are present (cough, gag)</li>
+                    <li>cuff leak is present (generally after long cases, surgeries near the neck, or <span class="tooltip"><a class="stale-link" href="javascript:void(0)">Trendelenburg</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                          <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                          </span> </span></span> position)</li>
+                    <li>reintubation or ventilation is feasible (the difficulty of intubation can dictate how conservative extubation must be)</li>
+                  </ul>
                   <h2 id="breathing">Breathing</h2>
+                  <p><em>Ensure the patient's respiratory drive is adequate for maintaining oxygenation and ventilation</em></p>
+                  <ul>
+                    <li>the patient is <strong>triggering</strong> the ventilator</li>
+                    <li>the patient is drawing adequate tidal volumes and minute ventilation</li>
+                    <li>the patient is triggering the ventilator at an appropriate respiratory rate (often targeting RR 10-12 at the end of a case)</li>
+                    <li>the patient has adequate gas exchange</li>
+                  </ul>
                   <h2 id="circulation">Circulation</h2>
-                  <h2 id="disability">Disability</h2>
-                  <pre><code class="language-mermaid">gitGraph
-	branch Initial
-   commit id: "Initial"
-   branch airway
-   checkout airway
-   commit id: "Obstruction"
-   commit id: "Secretions"
-   commit id: "Tongue Position"
-   
-   checkout Initial
-   branch breathing
-   checkout breathing
-   commit id: "Oxygen Saturation"
-   commit id: "Respiratory Rate"
-   commit id: "Auscultation"
-   
-   checkout Initial
-   branch circulation
-   checkout circulation
-   commit id: "Heart Rate"
-   commit id: "Blood Pressure"
-   commit id: "Capillary Refill"
-   
-   checkout Initial
-   branch disability
-   checkout disability
-   commit id: "Glasgow Coma Scale"
-   commit id: "Pupil Response"
-   commit id: "Motor Function"
-
-</code></pre>
-                  <pre><code class="language-mermaid">classDiagram
-   class Airway {
-     +Obstruction
-     +Secretions
-     +Tongue Position
-   }
-   
-   class Breathing {
-     +Oxygen Saturation
-     +Respiratory Rate
-     +Auscultation
-   }
-   
-   class Circulation {
-     +Heart Rate
-     +Blood Pressure
-     +Capillary Refill
-   }
-   
-   class Disability {
-     +Glasgow Coma Scale
-     +Pupil Response
-     +Motor Function
-   }
-Airway --&gt; Breathing 
-Breathing --&gt; Circulation
-Circulation --&gt; Disability
-</code></pre>
+                  <p><em>Ensure that the patient's hemodynamics are stable enough for extubation</em></p>
+                  <ul>
+                    <li>change from positive pressure ventilation to negative pressure will be tolerated well
+                      <ul>
+                        <li>especially important in cardiac pathology and pulmonary hypertension</li>
+                      </ul>
+                    </li>
+                    <li>added work of breathing will be tolerated hemodynamically
+                      <h2 id="disabilitydrugs">Disability/Drugs</h2>
+                      <p><em>Ensure the patient has a level of consciousness that is amenable to extubation. Similarly, ensure there are no drugs in the patient's system that may cause them to fail extubation</em></p>
+                    </li>
+                    <li>reversal of neuromuscular blockers (train of four &gt; 90%)</li>
+                    <li>adequate analgesia on board</li>
+                    <li>condition requiring intubation has been resolved (if intubated in a non-elective setting)</li>
+                    <li>there is no patient condition that requires control of ventilation (ex. TBI protocol necessitates avoiding hypercapnia)</li>
+                  </ul>
                 </div>
                 <!-- Add backlinks to the current page --></div>
             </div>

@@ -25,19 +25,15 @@
       <lastmod>2023-03-21T00:00:00-06:00</lastmod>
     </url>
     <url>
+      <loc>http://localhost:4000/note/Acetaminophen</loc>
+      <lastmod>2023-05-12T00:00:00-06:00</lastmod>
+    </url>
+    <url>
       <loc>http://localhost:4000/note/NSAID</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
       <loc>http://localhost:4000/note/Pain-Management</loc>
-      <lastmod>2023-05-12T00:00:00-06:00</lastmod>
-    </url>
-    <url>
-      <loc>http://localhost:4000/note/Acetaminophen</loc>
-      <lastmod>2023-05-12T00:00:00-06:00</lastmod>
-    </url>
-    <url>
-      <loc>http://localhost:4000/note/Ibuprofen</loc>
       <lastmod>2023-05-12T00:00:00-06:00</lastmod>
     </url>
     <url>
@@ -81,11 +77,11 @@
       <lastmod>2023-12-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Sevoflurane</loc>
+      <loc>http://localhost:4000/note/Desflurane</loc>
       <lastmod>2024-01-21T00:00:00-07:00</lastmod>
     </url>
     <url>
-      <loc>http://localhost:4000/note/Desflurane</loc>
+      <loc>http://localhost:4000/note/Sevoflurane</loc>
       <lastmod>2024-01-21T00:00:00-07:00</lastmod>
     </url>
     <url>
@@ -121,12 +117,24 @@
       <lastmod>2024-07-16T00:00:00-06:00</lastmod>
     </url>
     <url>
+      <loc>http://localhost:4000/note/Ventilator-Basics</loc>
+      <lastmod>2024-07-24T00:00:00-06:00</lastmod>
+    </url>
+    <url>
       <loc>http://localhost:4000/note/TIVA</loc>
       <lastmod>2024-08-22T00:00:00-06:00</lastmod>
     </url>
     <url>
       <loc>http://localhost:4000/note/Extubation-Criteria</loc>
       <lastmod>2024-09-05T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>http://localhost:4000/note/CAS-Monitors</loc>
+      <lastmod>2024-09-21T00:00:00-06:00</lastmod>
+    </url>
+    <url>
+      <loc>http://localhost:4000/note/Induction-of-General-Anesthesia</loc>
+      <lastmod>2024-09-21T00:00:00-06:00</lastmod>
     </url>
     <url>
       <loc>http://localhost:4000/clerk/2020/03/01/features.html</loc>
@@ -140,16 +148,19 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Acetaminophen.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Airway%20Assessment%20Pocket%20Card.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Airway%20Assessment%20Pocket%20Card.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Airway%20Devices.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Airway%20Devices.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Aprepitant.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Clerkship%20Resources.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/CAS%20Monitors.html</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Clerkship%20Resources.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Desflurane.html</loc>
@@ -158,10 +169,10 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Dexamethasone.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Extubation%20Criteria.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Extubation%20Criteria.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Fasting%20Requirements.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Fasting%20Requirements.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Fentanyl.html</loc>
@@ -173,7 +184,7 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Hydromorphone.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/DrugLibrary/Ibuprofen.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Induction%20of%20General%20Anesthesia.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/Intro.html</loc>
@@ -191,7 +202,7 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Morphine.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/NSAID.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/NSAID.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Naloxone.html</loc>
@@ -206,16 +217,16 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Ondansetron.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Pain%20Management.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Pain%20Management.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Post-operative%20Nausea%20and%20Vomiting.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Post-operative%20Nausea%20and%20Vomiting.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Propofol.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Rapid%20Sequence%20Induction.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Rapid%20Sequence%20Induction.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Remifentanil.html</loc>
@@ -224,16 +235,19 @@
       <loc>http://localhost:4000/_notes/DrugLibrary/Rocuronium.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/Sevoflurane.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Sevoflurane.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/DrugLibrary/Succinylcholine.html</loc>
     </url>
     <url>
-      <loc>http://localhost:4000/_notes/Clerkship/TIVA.html</loc>
+      <loc>http://localhost:4000/_notes/DrugLibrary/TIVA.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/_notes/TestPage.html</loc>
+    </url>
+    <url>
+      <loc>http://localhost:4000/_notes/DrugLibrary/Ventilator%20Basics.html</loc>
     </url>
     <url>
       <loc>http://localhost:4000/acknowledgements</loc>
