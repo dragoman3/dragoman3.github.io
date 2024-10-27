@@ -63,7 +63,7 @@ mermaid: true
 encoding: utf-8
 
 # Build settings
-theme: null
+theme: false
 plugins:
   - jekyll-feed 
   - jekyll-sitemap 
@@ -80,9 +80,9 @@ collections:
     notes/DrugLibrary:
       output: true
       permalink: /note:title
-    notes/Clerkship:
-      output: true
-      permalink: /note:title
+    # notes/Clerkship:
+    #   output: true
+    #   permalink: /note:title
 
 future: true
 
