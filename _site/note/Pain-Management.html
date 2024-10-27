@@ -30,16 +30,16 @@
     <meta
         content="Product and Type Designer | UI UX | Design Mentoring"
         property="og:description">
-      <meta content="http://localhost:4000/about/" property="article:author">
+      <meta content="/about/" property="article:author">
       <meta property="og:image" content="../assets/img/OGImg.png">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
         rel="stylesheet"><meta content="Pain Management" property="og:title">
       <meta content="article" property="og:type">
-      <meta content="http://localhost:4000/note/Pain-Management" property="og:url"><title>Pain Management - Collective Anesthesia</title>
+      <meta content="/note/Pain-Management" property="og:url"><title>Pain Management - Collective Anesthesia</title>
       <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-      <link rel="canonical" href="http://localhost:4000/note/Pain-Management" />
+      <link rel="canonical" href="/note/Pain-Management" />
       <link rel="apple-touch-icon" href="/assets/img/profile.png">
       <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
       <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
@@ -50,7 +50,7 @@
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
       <![endif]-->
       <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
-      <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml">
       <!--  -->
     </head>
     <body>
@@ -118,20 +118,26 @@
                 <h1>Pain Management</h1>
                 <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
                 <div class="content">
+                  <h1 id="introduction">Introduction</h1>
+                  <p>Pain management can be a complex topic in anesthesia. Patient factors, like age, comorbidities, and pre-existing chronic pain can help guide analgesia during the operative period. Surgical factors, like the expected intra-operative and post-operative pain can also help determine which agents to use and in what dosage.</p>
                   <h1 id="definitions">Definitions</h1>
                   <ol>
                     <li>Multimodal Analgesia - use of different classes of drugs to optimize analgesia while minimizing individual drug side-effects</li>
                   </ol>
                   <h1 id="who-pain-ladder">WHO Pain Ladder</h1>
+                  <p>The classic WHO pain ladder can be a useful reference when considering pain management in any patient.</p>
                   <pre><code class="language-mermaid">graph TB
-A[Non-opioids +/- Adjuvants];
-B[Opioids for Mild-moderate Pain];
-C[Opioids for Moderate-Severe Pain];
+A[Foundational Analgesics];
+B[Tramadol &amp; Low Dose Opioids];
+C[Hydromorphone, Morphine, Oxycodone];
+D[Fentanyl Patch, Extended Release Opioids]
 A--&gt;B
 B--&gt;C
+C--&gt;D
 </code></pre>
-                  <h2 id="step-1---non-opioids---adjuvants">Step 1 - Non-opioids +/- Adjuvants</h2>
-                  <p><span class="tooltip"><a href="/note/Acetaminophen/_notes/DrugLibrary/Acetaminophen.html">Acetaminophen</a><span class="right bottom"><span class="tooltip-title">Acetaminophen</span><br/>
+                  <h1 id="analgesia-overview">Analgesia Overview</h1>
+                  <h2 id="maximize-non-opioid-analgesia">Maximize Non-opioid Analgesia</h2>
+                  <p>Consider pre-operative <span class="tooltip"><a href="/note/Acetaminophen/_notes/DrugLibrary/Acetaminophen.html">Acetaminophen</a><span class="right bottom"><span class="tooltip-title">Acetaminophen</span><br/>
                         <span class="tooltip-excerpt">Mechanism of Action 1<br />
                           <br />
                           Central analgesic effect descending serotonergic pathways.<br />
@@ -140,17 +146,13 @@ B--&gt;C
                           <br />
                           Indications<br />
                           <br />
+                          Analgesia (see Pain Management)<br />
                           <br />
                           <br />
-                          <br />
-                          <br />
-                          Analges...</span><i></i></span></span></p>
-                  <p><span class="tooltip"><a href="/note/NSAID/_notes/DrugLibrary/NSAID.html">NSAID</a><span class="right bottom"><span class="tooltip-title">NSAID</span><br/>
-                        <span class="tooltip-excerpt">Mechanism of Action<br />
-                          Inhibit COX enzyme which prevents prostaglandins from being formed (which are inflammatory mediators) 1<br />
-                          <br />
-                          COX 1<br />
-                          maintain normal renal function, GI tract mucosal protection, throm...</span><i></i></span></span></p>
+                          D...</span><i></i></span></span>
+                    Consider the use of <span class="tooltip"><a class="stale-link" href="javascript:void(0)">NSAID</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                        <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                        </span> </span></span>s, but this will depend on the type of surgery. Generally, NSAIDs are given at the end of an operation if hemostasis is adequate and concerns of bleeding are low.</p>
                   <ul>
                     <li><span class="tooltip"><a class="stale-link" href="javascript:void(0)">Ibuprofen</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
                           <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
@@ -166,31 +168,125 @@ B--&gt;C
                             COX-1 and COX-2 inhibitor<br />
                             <br />
                             COX-1: involved in pl...</span><i></i></span></span>
-                      <h2 id="step-2---opioids-for-mild-moderate-pain">Step 2 - Opioids for Mild-moderate Pain</h2>
+                      <h2 id="opioids">Opioids</h2>
+                      <p>Opioids are the workhorse of analgesia in the perioperative period. Each of the opioids has a different onset of action and duration of action. The degree of analgesia (determined by the choice and dose of opioid) should be matched to the expected stimulus of the operations.</p>
                     </li>
                   </ul>
-                  <h2 id="step-3---opioids-for-moderate-severe-pain">Step 3 - Opioids for Moderate-Severe Pain</h2>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>For instance, <span class="tooltip"><a class="stale-link" href="javascript:void(0)">DrugLibrary/Remifentanil</td>
+                            <td>Remifentanil</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                              <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                              </span> </span></span> is a good choice in operations that have brief, potent stimulation but minimal post-operative pain.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td><span class="tooltip"><a href="/note/Hydromorphone/_notes/DrugLibrary/Hydromorphone.html">Hydromorphone</a><span class="right bottom"><span class="tooltip-title">Hydromorphone</span><br/>
+                              <span class="tooltip-excerpt">What is Hydromorphone? 1<br />
+                                <br />
+                                Semi-synthetic opioid analgesic derived from morphine.<br />
+                                Used for the management of moderate to severe pain.<br />
+                                <br />
+                                <br />
+                                Mechanism of Action &amp; Pharmacokinetics 12<br />
+                                <br />
+                                Primarily...</span><i></i></span></span> and <span class="tooltip"><a class="stale-link" href="javascript:void(0)">DrugLibrary/Morphine</td>
+                            <td>Morphine</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
+                              <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
+                              </span> </span></span> are good choices when there is intra-operative and post-operative pain.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p><span class="tooltip"><a href="/note/Tramadol/_notes/DrugLibrary/Tramadol.html">Tramadol</a><span class="right bottom"><span class="tooltip-title">Tramadol</span><br/>
+                        <span class="tooltip-excerpt">What is Tramadol? 1<br />
+                          <br />
+                          Synthetic opioid with analgesic properties indicated for treatment of moderate-severe pain.<br />
+                          Can be administered orally as immediate release or extended release tablets or a...</span><i></i></span></span> can be used after surgery and is commonly prescribed because it does not require a triplicate.</p>
+                  <h2 id="multimodal-analgesia">Multimodal Analgesia</h2>
+                  <p>There are a variety of co-analgesic options that can be infused or bolused throughout the operation. A few options include:</p>
+                  <ol>
+                    <li><span class="tooltip"><a href="/note/Ketamine/_notes/DrugLibrary/Ketamine.html">Ketamine</a><span class="right bottom"><span class="tooltip-title">Ketamine</span><br/>
+                          <span class="tooltip-excerpt">What is Ketamine?<br />
+                            <br />
+                            Rapidly acting NMDA receptor antagonist that can be used for Induction of General Anesthesia, sedation, and Pain Management<br />
+                            <br />
+                            <br />
+                            Mechanism of Action &amp; Pharmacokinetics...</span><i></i></span></span></li>
+                    <li>Lidocaine</li>
+                    <li>Dexmedetomidine</li>
+                    <li>Magnesium</li>
+                  </ol>
+                  <h2 id="regional-anesthesia">Regional Anesthesia</h2>
+                  <p>Depending on the operation, there are a variety of single shot and catheter based regional techniques that can provide intra-operative and post-operative pain control. A few options include:</p>
+                  <ol>
+                    <li>Spinal anesthesia – used commonly in c-secitons</li>
+                    <li>Epidural anesthesia – used in labouring patients and laparotomies</li>
+                    <li>Adductor canal nerve blocks – used in some knee and lower extremity surgeries</li>
+                    <li>Interscalene nerve block – can be useful for surgery surgery</li>
+                  </ol>
                 </div>
                 <!-- Add backlinks to the current page -->
                 <div class="related show" id="jekyll-seamless-backlinks">
                   <h5 class="meta-title centre-title">Links to this note</h5>
                   <div class="related-wrapper">
-                    <div class="related-group"><a href="/note/Clerkship-Resources">
-                        <h6>Clerkship Resources</h6>
-                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;">The following topics are taken from the Anesthesia Clerkship Core Documents. The following collec...</p>
+                    <div class="related-group"><a href="/note/Acetaminophen">
+                        <h6>Acetaminophen</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;">Mechanism of Action 1
+                          Central analgesic effect descending serotonergic pathways.
+                          Likely comp...</p>
                       </a></div>
-                    <div class="related-group"><a href="/note/TestPage">
-                        <h6>Test Page</h6>
-                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;">The following topics are taken from the Anesthesia Clerkship Core Documents. The following collec...</p>
+                    <div class="related-group"><a href="/note/Ketamine">
+                        <h6>Ketamine</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;"># What is Ketamine?
+                          Rapidly acting NMDA receptor antagonist that can be used for Induction of Ge...</p>
+                      </a></div>
+                    <div class="related-group"><a href="/note/Morphine">
+                        <h6>Morphine</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;">## What is Morphine? [^1]
+                          Naturally occurring opioid analgesic derived from the opium poppy.
+                          Us...</p>
+                      </a></div>
+                    <div class="related-group"><a href="/note/Fentanyl">
+                        <h6>Fentanyl</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;">## What is Fentanyl? [^1][^2]
+                          Potent, synthetic opioid with rapid acting analgesic and sedative ...</p>
+                      </a></div>
+                    <div class="related-group"><a href="/note/Pre-operative-Assessment">
+                        <h6>Pre-operative Assessment</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;"># Introduction
+                          *This page will cover the basics of an anesthetic evaluation*
+                          # History of Presen...</p>
                       </a></div>
                     <!--
         This code is to show other pages (note under collection) as Backlink. 
-        Disabled as I don't see a need for this right now.<div class="related-group"><a href="/_notes/DrugLibrary/Clerkship%20Resources.html">
-                <h6>Clerkship Resources</h6>
-                <p class="excerpt" style="margin: 0px;">The following topics are taken from the Anesthesia Clerkship Core Documents. The following collec...</p>
-            </a></div><div class="related-group"><a href="/_notes/TestPage.html">
-                <h6>Test Page</h6>
-                <p class="excerpt" style="margin: 0px;">The following topics are taken from the Anesthesia Clerkship Core Documents. The following collec...</p>
+        Disabled as I don't see a need for this right now.<div class="related-group"><a href="/_notes/DrugLibrary/Acetaminophen.html">
+                <h6>Acetaminophen</h6>
+                <p class="excerpt" style="margin: 0px;">## Mechanism of Action [^1]
+- Central analgesic effect descending serotonergic pathways.
+- Likely...</p>
+            </a></div><div class="related-group"><a href="/_notes/DrugLibrary/Fentanyl.html">
+                <h6>Fentanyl</h6>
+                <p class="excerpt" style="margin: 0px;">## What is Fentanyl? [^1][^2]
+- Potent, synthetic opioid with rapid acting analgesic and sedative...</p>
+            </a></div><div class="related-group"><a href="/_notes/DrugLibrary/Ketamine.html">
+                <h6>Ketamine</h6>
+                <p class="excerpt" style="margin: 0px;"># What is Ketamine?
+- Rapidly acting NMDA receptor antagonist that can be used for Induction of G...</p>
+            </a></div><div class="related-group"><a href="/_notes/DrugLibrary/Morphine.html">
+                <h6>Morphine</h6>
+                <p class="excerpt" style="margin: 0px;">## What is Morphine? [^1]
+- Naturally occurring opioid analgesic derived from the opium poppy.
+- ...</p>
+            </a></div><div class="related-group"><a href="/_notes/DrugLibrary/Pre-operative%20Assessment.html">
+                <h6>Pre-operative Assessment</h6>
+                <p class="excerpt" style="margin: 0px;"># Introduction
+*This page will cover the basics of an anesthetic evaluation*
+
+# History of Presen...</p>
             </a></div>-->
                   </div>
                   <br/>

@@ -30,16 +30,16 @@
     <meta
         content="Product and Type Designer | UI UX | Design Mentoring"
         property="og:description">
-      <meta content="http://localhost:4000/about/" property="article:author">
+      <meta content="/about/" property="article:author">
       <meta property="og:image" content="../assets/img/OGImg.png">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
         rel="stylesheet"><meta content="Airway Assessment" property="og:title">
       <meta content="article" property="og:type">
-      <meta content="http://localhost:4000/note/Airway-Assessment-Pocket-Card" property="og:url"><title>Airway Assessment - Collective Anesthesia</title>
+      <meta content="/note/Airway-Assessment" property="og:url"><title>Airway Assessment - Collective Anesthesia</title>
       <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
-      <link rel="canonical" href="http://localhost:4000/note/Airway-Assessment-Pocket-Card" />
+      <link rel="canonical" href="/note/Airway-Assessment" />
       <link rel="apple-touch-icon" href="/assets/img/profile.png">
       <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
       <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
@@ -50,7 +50,7 @@
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
       <![endif]-->
       <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
-      <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml">
       <!--  -->
     </head>
     <body>
@@ -118,37 +118,60 @@
                 <h1>Airway Assessment</h1>
                 <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
                 <div class="content">
+                  <h1 id="introduction">Introduction</h1>
+                  <p>Every patient coming for anesthesia requires an airway assessment. The goal of the airway assessment is to determine the ease of bag-mask ventilation (BMV), tracheal intubation, LMA placement and emergency front of neck access (FONA). FONA is beyond the scope of this review card but is available in the listed references.</p>
                   <h1 id="airway-evaluation-">Airway Evaluation <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">1</a></sup></h1>
                   <h2 id="overview">Overview</h2>
                   <ol>
+                    <li>History of difficult intubation</li>
                     <li>Mouth opening</li>
                     <li>Mallampati score</li>
-                    <li>Thyrdomental distance</li>
+                    <li>Thyromental distance</li>
+                    <li>Mandibular protrusion</li>
                     <li>Neck circumference</li>
                     <li>Neck range of motion</li>
                     <li>Status of dentition</li>
-                    <li>NPO status
-                      <h2 id="mallampati-score-">Mallampati Score <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup></h2>
-                      <p><img src="../assets/MPPrimer.png" alt="../assets/MPPrimer.png" /></p>
-                    </li>
+                    <li>NPO status</li>
                   </ol>
+                  <p><em>As seen below, the elements of the airway exam can raise suspicion for difficulty with airway manipulation</em></p>
+                  <h2 id="mallampati-score-">Mallampati Score <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup></h2>
+                  <p><img src="../assets/MPPrimer.png" alt="../assets/MPPrimer.png" /></p>
                   <h2 id="predictors-of-difficult-bag-mask-ventilation-">Predictors of Difficult Bag Mask Ventilation <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup></h2>
                   <p><em>Santa Claus</em></p>
                   <ol>
-                    <li>Beard</li>
+                    <li>Beard &amp; facial hair</li>
                     <li>Obesity (BMI &gt;35)</li>
-                    <li>Neck Circumference</li>
+                    <li>Neck circumference (&gt;44cm)</li>
                     <li>Edentureless</li>
-                    <li>Sleep Apnea</li>
+                    <li>Sleep apnea</li>
                   </ol>
                   <h2 id="predictors-of-difficult-direct-laryngoscopy-">Predictors of Difficult Direct Laryngoscopy <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup></h2>
+                  <p><em>The bolded items are predictors of difficult direct &amp; video laryngoscopy</em></p>
                   <ol>
                     <li>Mallampati 3&amp;4</li>
-                    <li>Thyromental distance &lt; 6cm</li>
-                    <li>Limited C-spine extension</li>
-                    <li>OSA</li>
-                    <li>Increased neck range of motion</li>
-                    <li>previous neck radiation</li>
+                    <li><strong>Thyromental distance &lt; 6cm</strong></li>
+                    <li><strong>Limited C-spine extension</strong></li>
+                    <li><strong>Limited mouth opening</strong></li>
+                    <li>OSA or thick neck</li>
+                    <li>Increased BMI (conflicting results)</li>
+                    <li>Previous neck radiation</li>
+                    <li><strong>Limited mandibular protrusion</strong></li>
+                    <li><strong>Male sex</strong></li>
+                  </ol>
+                  <h2 id="predictors-of-difficult-video-laryngoscopy-">Predictors of Difficult Video Laryngoscopy <sup id="fnref:1:2" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup></h2>
+                  <ol>
+                    <li>History of difficult direct laryngoscopy</li>
+                    <li><strong>Thyromental distance &lt; 6cm</strong></li>
+                    <li><strong>Limited C-spine extension</strong></li>
+                    <li><strong>Limited mouth opening</strong></li>
+                    <li>Soiled airway</li>
+                    <li><strong>Limited mandibular protrusion</strong></li>
+                    <li><strong>Male sex</strong></li>
+                  </ol>
+                  <h2 id="predictors-of-difficult-lma-placement">Predictors of Difficult LMA placement</h2>
+                  <ol>
+                    <li>No teeth</li>
+                    <li>Mallampati 3&amp;4</li>
                   </ol>
                   <div class="footnotes" role="doc-endnotes">
                     <ol>
@@ -158,19 +181,39 @@
                               </span> </span></span> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
                       </li>
                       <li id="fn:3" role="doc-endnote">
-                        <p><span class="tooltip"><a class="stale-link" href="javascript:void(0)">M. Pardo, R.D. Miller, Basics of anesthesia E-book, 2017</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
-                              <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
-                              </span> </span></span> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+                        <p>Birdi T, Sullivan P. Ottawa Anesthesia Primer. Toronto, Ontario: Echo Book Publishing; 2012. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
                       </li>
                       <li id="fn:1" role="doc-endnote">
                         <p><span class="tooltip"><a class="stale-link" href="javascript:void(0)">J. Adam Law, Laura V. Duggan, Mathieu Asselin, Paul Baker, Edward Crosby, Andrew Downey, Orlando R. Hung, George Kovacs, François Lemay, Rudiger Noppens, Matteo Parotto, Roanne Preston, Nick Sowers, Kathryn Sparrow, Timothy P. Turkstra, David T. Wong, Philip M. Jones, undefined undefined, Canadian Airway Focus Group updated consensus-based recommendations for management of the difficult airway: part 2. Planning and implementing safe management of the patient with an anticipated difficult airway, 2021</a> <span class="right bottom"> <span class="tooltip-title">Private or Broken Links</span><br/>
                               <span class="tooltip-excerpt">The page you're looking for is either not available or private! <br/>
-                              </span> </span></span> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+                              </span> </span></span> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:1:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a></p>
                       </li>
                     </ol>
                   </div>
                 </div>
-                <!-- Add backlinks to the current page --></div>
+                <!-- Add backlinks to the current page -->
+                <div class="related show" id="jekyll-seamless-backlinks">
+                  <h5 class="meta-title centre-title">Links to this note</h5>
+                  <div class="related-wrapper">
+                    <div class="related-group"><a href="/note/Pre-operative-Assessment">
+                        <h6>Pre-operative Assessment</h6>
+                        <p class="excerpt" style="margin: 0px; color: var(--color-text-main) !important;"># Introduction
+                          *This page will cover the basics of an anesthetic evaluation*
+                          # History of Presen...</p>
+                      </a></div>
+                    <!--
+        This code is to show other pages (note under collection) as Backlink. 
+        Disabled as I don't see a need for this right now.<div class="related-group"><a href="/_notes/DrugLibrary/Pre-operative%20Assessment.html">
+                <h6>Pre-operative Assessment</h6>
+                <p class="excerpt" style="margin: 0px;"># Introduction
+*This page will cover the basics of an anesthetic evaluation*
+
+# History of Presen...</p>
+            </a></div>-->
+                  </div>
+                  <br/>
+                </div>
+              </div>
             </div>
             <!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
         </section>
