@@ -132,7 +132,7 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: ['_notes', '_notes/Clerkship', '_notes/Clerkship/Asset', 'assets']
+include: ['_notes', '_notes/Clerkship','_notes/DrugLibrary', '_notes/Clerkship/Asset', 'assets']
 
 exclude:
   - _notes/000 Inbox
@@ -142,7 +142,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - '_notes/DrugLibrary'
+  
   # - _notes/Clerkship/.git
   # - _notes/Clerkship/.gitattributes
 #   - .sass-cache/
