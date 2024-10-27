@@ -1,6 +1,3 @@
----
----
-
 <!-------------------------------------------------------------------------------------
 *
 * MIT License
@@ -52,6 +49,7 @@
 
     <title>{{page.title}} - {{site.heading}}</title>
     <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
     <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
@@ -63,12 +61,12 @@
     <!--[if IE]>
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
-    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" /> -->
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
-    <!-- {% if site.google_analytics and jekyll.environment == 'production' %} -->
-    <!-- {% include analytics.html %} -->
-    <!-- {% endif %} -->
+ {% if site.google_analytics and jekyll.environment == 'production' %}
+ {% include analytics.html %}
+ {% endif %}
 </head>
 
 <body>
