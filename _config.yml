@@ -76,10 +76,10 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /note:title
+      permalink: /note/:title
     notes/DrugLibrary:
       output: true
-      permalink: /note:title
+      permalink: /note/:title
     # notes/Clerkship:
     #   output: true
     #   permalink: /note:title
@@ -109,7 +109,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /note:title
+      permalink: /note/:title
       content-type: post
   - scope:
       path: ""
