@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 # 
-# gem "jekyll", "~> 4.0.0"
+gem "jekyll", "~> 4.0.0"
 
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -20,7 +20,7 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 
 
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
 
 
 # If you have any plugins, put them here!
