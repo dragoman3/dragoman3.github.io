@@ -77,9 +77,9 @@ collections:
     notes:
       output: true
       permalink: /note:title
-    # notes/DrugLibrary:
-    #   output: true
-    #   permalink: /note:title
+    notes/DrugLibrary:
+      output: true
+      permalink: /note:title
     # notes/Clerkship:
     #   output: true
     #   permalink: /note:title
