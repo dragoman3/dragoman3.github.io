@@ -76,7 +76,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /note/:title
+      permalink: 
     # notes/DrugLibrary:
     #   output: true
     #   permalink: /note:title
@@ -109,7 +109,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /note/:title
+      permalink: 
       content-type: post
   - scope:
       path: ""
