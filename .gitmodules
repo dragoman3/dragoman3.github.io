@@ -15,3 +15,6 @@
 	url = https://github.com/dragoman3/img
 
 
+[submodule "_notes/Drugs"]
+	path = _notes/Drugs
+	url = https://github.com/dragoman3/DrugLibrary
