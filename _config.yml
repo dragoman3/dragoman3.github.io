@@ -76,7 +76,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /note/:title
+      permalink: /note/:title:output_ext
     # notes/DrugLibrary:
     #   output: true
     #   permalink: /note/:title
@@ -117,6 +117,7 @@ defaults:
     values:
       layout: Post
       content-type: notes
+      permalink: /note/:title
   - scope:
       path: "/assets/img"
     values: 
@@ -125,7 +126,7 @@ defaults:
 
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
 
   
 # Exclude from processing.
@@ -136,7 +137,7 @@ relative_links:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-include: ['_notes', '_notes/Clerkship','_notes/DrugLibrary', '_notes/Clerkship/Asset', 'assets']
+include: ['_notes/Clerkship','_notes/DrugLibrary', '_notes/Clerkship/Asset', 'assets']
 
 exclude:
   - _notes/000 Inbox

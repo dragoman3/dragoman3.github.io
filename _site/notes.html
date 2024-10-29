@@ -1,0 +1,486 @@
+<!-------------------------------------------------------------------------------------
+*
+* MIT License
+* Copyright (c) 2020 Raghuveer S, Hiran Venugopalan, Asim K T
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+------------------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Hiran Venugopalan" property="og:site_name" />
+    <meta
+        content="Product and Type Designer | UI UX | Design Mentoring"
+        property="og:description">
+      <meta content="http://localhost:4000/about/" property="article:author">
+      <meta property="og:image" content="../assets/img/OGImg.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+        rel="stylesheet"><meta content="Content Feed" property="og:title">
+      <meta content="article" property="og:type">
+      <meta content="http://localhost:4000/notes" property="og:url"><title>Content Feed - Collective Anesthesia</title>
+      <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+      <link rel="canonical" href="http://localhost:4000/notes" />
+      <link rel="apple-touch-icon" href="/assets/img/profile.png">
+      <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16" />
+      <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/main.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
+      <link href="/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
+      <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+      <![endif]-->
+      <!--<link href="/assets/css/prism.css" rel="stylesheet" /> -->
+      <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+    </head>
+    <body>
+      <main><!---->
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" style="padding-left: 0;"; href="/index.html">
+              <h6> Collective Anesthesia</h6>
+            </a>
+            <script src="/assets/js/modeswitcher.js"></script>
+            <script src="/assets/js/Hamburger.js"></script>
+            <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
+              <div class="buttons">
+                <a class="button is-text">
+                  <span class="icon is-small">
+                    <img src="/assets/img/sun.svg" id="theme-toggle-img--mobile">
+                  </span>
+                </a>
+              </div>
+            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href="../rapidreferences" class="navbar-item">
+                Rapid Review
+              </a>
+              <a href="../pharmacy" class="navbar-item">
+                Pharmacy
+              </a>
+              <a href="/notes" class="navbar-item">
+                Content Feed
+              </a>
+              <a href="/acknowledgements" class="navbar-item">
+                Acknowledgements
+              </a>
+            </div>
+            <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-text">
+                    <span class="icon is-small">
+                      <img src="/assets/img/sun.svg" id="theme-toggle-img">
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section class="section">
+          <div class="columns is-centered">
+            <!-- Homepage Layout--><!--- Notes Feed Layout-->
+            <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+              <h5 class="meta-title"><a href="/">← Home</a></h5>
+              <div class="jumbo">Content Feed</div>
+              <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
+              <div class="content">
+                <p>The feed page shows all notes on the webpage.</p>
+              </div>
+              <!--Notes Feed-->
+              <!--Static Page : pages/notes.md--><!-- search bar -->
+              <div class="block">
+                <input class="input is-medium" type="text" placeholder="Search notes.." id="search-input" autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+              </div>
+              <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
+              <script src="/assets/js/Search.js"></script><!-- feed with filter-->
+              <div class="related-wrapper">
+                <div class="notelist-feed">
+                  <a href="/note/Tramadol">
+                    <h6>Tramadol</h6>
+                    <p class="excerpt">
+                      What is Tramadol? 1
+                      Synthetic opioid with analgesic properties indicated for treatment of moderatesevere pain.
+                      Can be administered orally as immediate release or extended release tablets or as...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Fluid-Management-in-Anesthesia">
+                    <h6>Fluid Management in Anesthesia</h6>
+                    <p class="excerpt">
+                      Introduction
+                      It is helpful to have an idea of how much fluid a patient should receive during an operation. Below are some rules of thumb to calculate the expected needs of a patients. Fluids should...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Pre-operative-Assessment">
+                    <h6>Pre-operative Assessment</h6>
+                    <p class="excerpt">
+                      Introduction
+                      This page will cover the basics of an anesthetic evaluation
+                      History of Presenting Illness
+                      Identify the proposed surgery and approach (e.g. laparoscopic, open, etc.)
+                      Identify the ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Induction-of-General-Anesthesia">
+                    <h6>Induction of General Anesthesia</h6>
+                    <p class="excerpt">
+                      Introduction
+                      The start of a case represents one of the highest risk periods in the operation.
+                      After a surgical timeout, the tools required for a safe induction can be remembered with the MDSOLES a...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/CAS-Monitors">
+                    <h6>CAS Monitors</h6>
+                    <p class="excerpt">
+                      Introduction
+                      Patients receiving anesthesia require a high degree of monitoring. Canadian guidelines on the practice of anesthesia outline the necessary monitors. 1
+                      Monitors
+                      Required Monitors
+                      Pul...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Extubation-Criteria">
+                    <h6>Extubation Criteria</h6>
+                    <p class="excerpt">
+                      Introduction
+                      Below is a checklist to follow when considering extubating a patient.
+                      Approach
+                      Airway
+                      Ensure the patient will be able to protect their own airway and that airway recapture is possible...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Ventilator-Basics">
+                    <h6>Ventilator Basics</h6>
+                    <p class="excerpt">
+                      Ventilator Basics
+                      There are a variety of methods to ventilate patients in the OR once an Airway Devices|Airway is placed. As the name suggests, controlled modes of ventilation allow the anesthesiol...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Fentanyl">
+                    <h6>Fentanyl</h6>
+                    <p class="excerpt">
+                      What is Fentanyl? 12
+                      Potent, synthetic opioid with rapid acting analgesic and sedative properties.
+                      Can be administered intravenously, intramuscularly, transdermally, transmucosally, or intrath...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Succinylcholine">
+                    <h6>Succinylcholine</h6>
+                    <p class="excerpt">
+                      What is Succinylcholine? 1
+                      A depolarizing neuromuscular blocking drug
+                      Commonly used for rapid sequence induction and intubation due to its rapid onset and ultrashort duration of action.
+                      Succ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Rocuronium">
+                    <h6>Rocuronium</h6>
+                    <p class="excerpt">
+                      What is Rocuronium? 1
+                      An intermediateacting nondepolarizing neuromuscular blocking drug (NDMR) used for rapid induction and intubation.
+                      Popular for short and intermediate procedures due to its...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Naloxone">
+                    <h6>Naloxone</h6>
+                    <p class="excerpt">
+                      What is Naloxone? 1
+                      A pure opioid antagonist used to reverse the effects of opioid overdose, including respiratory depression, sedation, and hypotension.
+                      Mechanism of Action &amp;amp; Pharmaco...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Morphine">
+                    <h6>Morphine</h6>
+                    <p class="excerpt">
+                      What is Morphine? 1
+                      Naturally occurring opioid analgesic derived from the opium poppy.
+                      Used for the management of moderate to severe pain.
+                      Mechanism of Action &amp;amp; Pharmacokinetics 12
+                      ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Hydromorphone">
+                    <h6>Hydromorphone</h6>
+                    <p class="excerpt">
+                      What is Hydromorphone? 1
+                      Semisynthetic opioid analgesic derived from morphine.
+                      Used for the management of moderate to severe pain.
+                      Mechanism of Action &amp;amp; Pharmacokinetics 12
+                      Primar...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Ketorolac">
+                    <h6>Ketorolac</h6>
+                    <p class="excerpt">
+                      What is Ketorolac?
+                      Nonsteroidal antiinflammatory drug used primarily for short term, acute pain management.
+                      Mechanism of Action 1
+                      COX1 and COX2 inhibitor
+                      COX1: involved in platel...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Remifentanil">
+                    <h6>Remifentanil</h6>
+                    <p class="excerpt">
+                      What is Remifentanil? 1
+                      Ultrashortacting synthetic opioid analgesic.
+                      Used for pain management and as an adjunct to anesthesia.
+                      Rapid onset and short duration of action.
+                      Mechanism of Action...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Sevoflurane">
+                    <h6>Sevoflurane</h6>
+                    <p class="excerpt">
+                      What is Sevoflurane?
+                      Volatile inhaled anesthetic agent used for induction and maintenance of general anesthesia.
+                      It is synthetic, colourless and nonflammable
+                      Mechanism of Action &amp;amp; Ph...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Desflurane">
+                    <h6>Desflurane</h6>
+                    <p class="excerpt">
+                      What is Desflurane?
+                      Volatile inhaled anesthetic agent used for maintenance of general anesthesia. Not often used for induction of anesthesia due to airway irritant properties.
+                      It is synthetic,...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Rapid-Sequence-Induction">
+                    <h6>Rapid Sequence Induction</h6>
+                    <p class="excerpt">
+                      What is a Rapid Sequence Induction (RSI)? 1
+                      General anesthesia usually involves impairment of airway reflexes, thereby increasing aspiration risk
+                      If patients who require general anesthesia are...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Fasting-Requirements">
+                    <h6>Fasting Requirements</h6>
+                    <p class="excerpt">
+                      General Guidelines:
+                      Guidelines have recently changed for fasting. The Canadian Guidelines to the Practice of Anesthesia offer the most current and locally applicable guidelines: 1
+                      Six hours aft...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Propofol">
+                    <h6>Propofol</h6>
+                    <p class="excerpt">
+                      What is Propofol? 12
+                      Sedative agent for induction and maintenance of anesthesia.
+                      Rapid redistribution allows brief, deep sedation (e.g., joint reductions, cardioversions, ECT).
+                      Mechanism of ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Neostigmine">
+                    <h6>Neostigmine</h6>
+                    <p class="excerpt">
+                      What is Neostigmine?
+                      Neostigmine is a cholinesterase inhibitor generally used to reverse nondepolarizing muscle relaxants like DrugLibrary/Rocuronium
+                      Ro...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Ketamine">
+                    <h6>Ketamine</h6>
+                    <p class="excerpt">
+                      What is Ketamine?
+                      Rapidly acting NMDA receptor antagonist that can be used for Induction of General Anesthesia, sedation, and Pain Management
+                      Mechanism of Action &amp;amp; Pharmacokinetics 12
+                      ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Haloperidol">
+                    <h6>Haloperidol</h6>
+                    <p class="excerpt">
+                      Mechanism of Action 12
+                      Haloperidol is an antipsychotic that acts primarily as a dopamine D2 receptor antagonist.
+                      By blocking dopamine receptors, it inhibits the vomiting reflex, making it effe...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Aprepitant">
+                    <h6>Aprepitant</h6>
+                    <p class="excerpt">
+                      Mechanism of Action 1
+                      Aprepitant is a  neurokinin1 (NK1) receptor antagonist. NK receptors in the brain are involved in nausea.
+                      Pharmacology 1
+                      Halflife: Approximately 40 hours
+                      Indicatio...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Airway-Devices">
+                    <h6>Airway Devices</h6>
+                    <p class="excerpt">
+                      Bag Mask Ventilation
+                      BMV Basics
+                      Anesthetic machines come with several elements
+                      Mask  forms a seal on the mouth. A good seal allows accurate reading of ETCO2 and ETO2 (to assess preoxygenation)
+                      ...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Ondansetron">
+                    <h6>Ondansetron</h6>
+                    <p class="excerpt">
+                      Mechanism of Action 12
+                      Ondansetron is a selective 5HT₃ receptor antagonist that blocks serotonin receptors in the chemoreceptor trigger zone (CTZ), preventing the initiation of the vomiting refl...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Dexamethasone">
+                    <h6>Dexamethasone</h6>
+                    <p class="excerpt">
+                      What is Dexamethasone?
+                      Dexamethasone is a glucocorticoid used in the perioperative period for Postoperative Nausea and Vomiting and airway swelling.
+                      Mechanism of Action 12
+                      Dexamethasone bin...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Pain-Management">
+                    <h6>Pain Management</h6>
+                    <p class="excerpt">
+                      Introduction
+                      Pain management can be a complex topic in anesthesia. Patient factors, like age, comorbidities, and preexisting chronic pain can help guide analgesia during the operative period. Surgi...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Acetaminophen">
+                    <h6>Acetaminophen</h6>
+                    <p class="excerpt">
+                      Mechanism of Action 1
+                      Central analgesic effect descending serotonergic pathways.
+                      Likely component of COX inhibition (similar to NSAIDs)
+                      Indications
+                      Analgesia (see Pain Management)
+                      Dosag...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Airway-Assessment">
+                    <h6>Airway Assessment</h6>
+                    <p class="excerpt">
+                      Introduction
+                      Every patient coming for anesthesia requires an airway assessment. The goal of the airway assessment is to determine the ease of bagmask ventilation (BMV), tracheal intubation, LMA pla...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Nitrous-Oxide">
+                    <h6>Nitrous Oxide</h6>
+                    <p class="excerpt">
+                      What is Nitrous Oxide?
+                      Inhalational agent used for general anesthetic induction. Combined with other drugs to augment an anesthetic and analgesic effect.
+                      Mechanism of Action &amp;amp; Pharmaco...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Midazolam">
+                    <h6>Midazolam</h6>
+                    <p class="excerpt">
+                      What is Midazolam?
+                      A benzodiazepine often used as a coinduction agent to provide amnestic and anxiolytic properties.
+                      Mechanism of Action &amp;amp; Pharmacokinetics 12
+                      Facilitates the inhibi...
+                    </p>
+                  </a>
+                </div>
+                <div class="notelist-feed">
+                  <a href="/note/Post-operative-Nausea-and-Vomiting">
+                    <h6>Post-operative Nausea and Vomiting</h6>
+                    <p class="excerpt">
+                      General Principles
+                      Many patients undergoing anesthesia will experience postoperative nausea and vomiting
+                      Antiemetic medications are given routinely during anesthesia.
+                      Combining agents of dif...
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <!-- Feed Format for referenes --><!--Dynamic List Feed-->
+              <!--Static Page : pages/lists.md--><!--- Notes Layout--><!--- Post Feed Layout--><!--- Post Layout--><!--- Static Page Layout--></div>
+          </section>
+        </main>
+      </body>
+    </html>
